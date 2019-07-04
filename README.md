@@ -6,6 +6,8 @@
 
 This project contains my personal resume or CV. It uses the [jsonresume](https://jsonresume.org/) format to save and display the resume in PDF and HTML format.
 
+> The **main repository** is hosted in [gitlab.com](https://gitlab.com/patricioperpetua/resume) but it is automaticaly mirrored to [github.com](https://github.com/patricioperpetua/resume.git). If you are in the Github page it may occur that is not updated to the last version.
+
 ## BRANCHING MODEL
 
 * Default branch when pull is DEVELOP.
