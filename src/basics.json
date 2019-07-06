@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "canonical": "https://",
+    "version": "v1.0.0",
+    "lastModified": "2019-07-06T04:35:00"
+  },
+  "basics": {
+    "name": "Eng. Patricio PERPETUA",
+    "label": "2019-07",
+    "image": "../assets/profile.jpg",
+    "picture": "../assets/profile.jpg",
+    "email": "patricio.perpetua.arg@gmail.com",
+    "phone": "+393519651992",
+    "website": "https://patricioperpetua.com",
+    "location": {
+      "address": "Via Milano 74",
+      "postalCode": "20025",
+      "city": "Legnano",
+      "countryCode": "Italy (IT)",
+      "region": "Milano"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "patoperpetua",
+        "url": "https://www.facebook.com/patoperpetua"
+      },
+      {
+        "network": "Twitter",
+        "username": "@patoperpetua",
+        "url": "https://twitter.com/patoperpetua"
+      },
+      {
+        "network": "Instagram",
+        "username": "@patoperpetua",
+        "url": "https://www.facebook.com/patoperpetua"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Patricio Perpetua",
+        "url": "https://linkedin.com/in/patricioperpetua"
+      },
+      {
+        "network": "Gitlab",
+        "username": "singletonmd",
+        "url": "https://gitlab.com/singletonmd"
+      },
+      {
+        "network": "Github",
+        "username": "singletonmd",
+        "url": "https://github.com/singletonmd"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidad Nacional de Cordoba, Argentina",
+      "area": "Computing Engineer",
+      "studyType": "College",
+      "startDate": "2012-01-01",
+      "endDate": "2018-12-20",
+      "gpa": "7.5/10",
+      "courses": []
+    },
+    {
+      "institution": "Ensimag Grenoble INP, France",
+      "area": "Computing Engineer",
+      "studyType": "College (One year Exchange)",
+      "startDate": "2017-01-01",
+      "endDate": "2017-12-01",
+      "gpa": "13.7/20",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "SQL Engines",
+      "level": "",
+      "keywords": [
+        "SQLite",
+        "SQL Server",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "C",
+        "Go",
+        "Java",
+        "Java Android",
+        "JavaScript",
+        "Linux Bash",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "Angular",
+        "Hibernate",
+        "Maven",
+        "NodeJS",
+        "Swagger",
+        "VueJS"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords":[
+        "Amazon AWS",
+        "Apache",
+        "Docker",
+        "Git",
+        "Gitlab CI/CD",
+        "Jasper Reports",
+        "Liquibase"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced B2 (IELTS 6.0 - 2016)"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Beginner"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "volunteer": [],
+  "awards": [],
+  "publications":[],
+  "references": []
+}

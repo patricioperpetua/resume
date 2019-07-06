@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "canonical": "https://",
+    "version": "v1.0.0",
+    "lastModified": "2019-07-06T04:35:00"
+  },
+  "basics":{
+    "summary": "This resume contains all projects I've been involved. I am looking for a job related to DevOps, docker, CI/CD, Kubernetes or backend services. I’m available to change location from August 1st. Language preference: English. NO HR companies neither consultants companies. Available to change location inside Europe."
+  },
+  "work": [
+    {
+      "company": "Universidad Nacional de Cordoba, Argentina",
+      "position": "Internship",
+      "website": "http://www.dep.computacion.efn.uncor.edu/",
+      "startDate": "2015-06-01",
+      "endDate": "2015-10-01",
+      "summary": "Deloping example proyects to use sensor of an IoT device (Freescale KL46)",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+  ],
+  "languages": [
+  ],
+  "interests": [
+  ],
+  "references": []
+}

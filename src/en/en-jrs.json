@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "canonical": "https://",
+    "version": "v1.0.0",
+    "lastModified": "2019-07-06T04:35:00"
+  },
+  "basics":{
+    "summary": "This resume contains my last 4 projects. You can find out more in my personal or enterprise webpage. I am looking for a job related to DevOps, docker, CI/CD, Kubernetes or backend services. I’m available to change location from August 1st. Language preference: English. NO HR companies neither consultants companies. Available to change location inside Europe."
+  },
+  "work": [
+    {
+      "company": "Singleton Software Development",
+      "position": "CoFounder",
+      "website": "http://www.singletonsd.com",
+      "startDate": "2014-01-01",
+      "endDate": "",
+      "summary": "After 2 years of freelancing, I found my own company to start a real software enterprise",
+      "highlights": [
+        "More than 15 clients",
+        "1 client in France",
+        "1 client in Australia",
+        "More details in website"
+      ]
+    },
+    {
+      "company": "RavimoShark (France)",
+      "position": "College Internship",
+      "website": "www.ravimoshark.com",
+      "startDate": "2017-06-26",
+      "endDate": "2018-01-22",
+      "summary": "I developed 2 java programs to migrate information for different databases, 1 API in NodeJS and 2 android applications (multilingual).",
+      "highlights": [
+        "OPERATIVE SYSTEMS: Android, Linux",
+        "FRAMEWORKS: NodeJS, Hibernate",
+        "LANGUAJES: Java, JavaScript"
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+  ],
+  "languages": [
+  ],
+  "interests": [
+  ],
+  "references": []
+}
