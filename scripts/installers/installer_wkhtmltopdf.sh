@@ -27,4 +27,5 @@ if  type "sudo" &> /dev/null; then
     SUDO="sudo"
 fi
 
-${SUDO} npm install -g wkhtmltopdf
+# TODO: change pdf installer.
+# ${SUDO} npm install -g wkhtmltopdf
