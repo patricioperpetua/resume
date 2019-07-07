@@ -1,7 +1,7 @@
-image: node:8-alpine
+image: surnet/alpine-node-wkhtmltopdf:3.9-0.12.5-small
 
 before_script:
-  - apk add --no-cache bash curl git lftp wkhtmltopdf libgcc libstdc++ libx11 glib libxrender libxext libintl libcrypto1.1 libssl1.1 ttf-dejavu ttf-droid ttf-freefont ttf-liberation ttf-ubuntu-font-family
+  - apk add --no-cache bash curl git lftp
   - ./scripts/installers/installer_all.sh
 
 variables:
