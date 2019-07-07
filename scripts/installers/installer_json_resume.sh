@@ -22,4 +22,9 @@ if ! type "npm" &> /dev/null; then
     exit 1
 fi
 
-sudo npm install -g resume-cli
+SUDO=
+if  type "sudo" &> /dev/null; then
+    SUDO="sudo"
+fi
+
+${SUDO} npm install -g resume-cli
