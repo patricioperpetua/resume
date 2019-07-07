@@ -16,21 +16,6 @@
     },
     "profiles": [
       {
-        "network": "Facebook",
-        "username": "patoperpetua",
-        "url": "https://www.facebook.com/patoperpetua"
-      },
-      {
-        "network": "Twitter",
-        "username": "@patoperpetua",
-        "url": "https://twitter.com/patoperpetua"
-      },
-      {
-        "network": "Instagram",
-        "username": "@patoperpetua",
-        "url": "https://www.instagram.com/patoperpetua"
-      },
-      {
         "network": "LinkedIn",
         "username": "Patricio Perpetua",
         "url": "https://linkedin.com/in/patricio-perpetua"
@@ -44,6 +29,21 @@
         "network": "Github",
         "username": "SingletonSD",
         "url": "https://github.com/singletonsd"
+      },
+      {
+        "network": "Twitter",
+        "username": "@patoperpetua",
+        "url": "https://twitter.com/patoperpetua"
+      },
+      {
+        "network": "Facebook",
+        "username": "patoperpetua",
+        "url": "https://www.facebook.com/patoperpetua"
+      },
+      {
+        "network": "Instagram",
+        "username": "@patoperpetua",
+        "url": "https://www.instagram.com/patoperpetua"
       }
     ]
   },
