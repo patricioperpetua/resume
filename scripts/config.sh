@@ -17,6 +17,7 @@ THEME_HTML=node_modules/jsonresume-theme-kendall
 
 declare -a AVAILABLE_THEMES=( 'business-card' 'elegant' 'paper' 'kendall' 'flat' 'classy' 'class' 'short' 'slick' 'onepage' 'spartan' 'stackoverflow');
 declare -a AVAILABLE_THEMES_FRESH=( 'positive' 'modern' 'compact' 'basis' 'awesome' )
+
 FTP_DOMAIN=
 FTP_USER=
 FTP_PASS=
@@ -24,3 +25,6 @@ FTP_PORT=21
 
 DROPBOX_ACCESS_TOKEN=
 DROPBOX_FOLDER=resume
+
+AMAZON_S3_BUCKET="patricioperpetuaweb"
+AMAZON_S3_FOLDER="resume"

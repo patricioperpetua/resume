@@ -23,7 +23,8 @@ pages:
   stage: build
   script:
     - ./scripts/builder.sh
-    - cp builds/html/index.html public/
+    - cp builds/html/index.html public/index.html
+    - cp builds/pdf/index.pdf public/index.pdf
   artifacts:
     paths:
     - public
