@@ -28,22 +28,22 @@
       {
         "network": "Instagram",
         "username": "@patoperpetua",
-        "url": "https://www.facebook.com/patoperpetua"
+        "url": "https://www.instagram.com/patoperpetua"
       },
       {
         "network": "LinkedIn",
         "username": "Patricio Perpetua",
-        "url": "https://linkedin.com/in/patricioperpetua"
+        "url": "https://linkedin.com/in/patricio-perpetua"
       },
       {
         "network": "Gitlab",
-        "username": "singletonmd",
-        "url": "https://gitlab.com/singletonmd"
+        "username": "SingletonSD",
+        "url": "https://gitlab.com/singletonsd"
       },
       {
         "network": "Github",
-        "username": "singletonmd",
-        "url": "https://github.com/singletonmd"
+        "username": "SingletonSD",
+        "url": "https://github.com/singletonsd"
       }
     ]
   },
