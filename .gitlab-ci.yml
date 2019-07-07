@@ -1,4 +1,4 @@
-image: surnet/alpine-node-wkhtmltopdf:10.15.3-0.12.5-full
+image: surnet/alpine-node-wkhtmltopdf:3.9-0.12.5-small
 
 before_script:
   - apk add --no-cache bash curl git lftp
