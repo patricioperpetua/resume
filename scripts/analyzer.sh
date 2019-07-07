@@ -39,15 +39,15 @@ do
 		lang="${entry:4}"
 		if [ -f src/${lang}/${lang}-jrs.json ]; then
             echo "found language ${lang}"
-            if [ -f builds/analysis-${lang}.txt ]; then
-                rm builds/analysis-${lang}.txt
+            if [ -f ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${VERSION}-${lang}.txt ]; then
+                rm ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${VERSION}-${lang}.txt
             fi
-            hackmyresume analyze ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json > builds/analysis-${lang}.txt
+            hackmyresume analyze ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json > ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${VERSION}-${lang}.txt
             if [ -f src/${lang}/${lang}-complement-jrs.json ]; then
-                if [ -f builds/analysis-${lang}-complement.txt ]; then
-                    rm builds/analysis-${lang}-complement.txt
+                if [ -f ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${VERSION}-${lang}-complement.txt ]; then
+                    rm ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${VERSION}-${lang}-complement.txt
                 fi
-                hackmyresume analyze ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json > builds/analysis-${lang}-complement.txt
+                hackmyresume analyze ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json > ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${VERSION}-${lang}-complement.txt
             fi
         fi
     fi

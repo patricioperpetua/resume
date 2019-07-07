@@ -98,6 +98,8 @@ do
 				src/${lang}/${lang}-complement-jrs.json \
 				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json
 
+			cp assets/profile.jpg ${CV_FOLDER_PATH_PDF}/profile.jpg
+
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf \
 				-o src/${lang}/${lang}-option.json \
@@ -110,7 +112,7 @@ do
 				-o src/${lang}/${lang}-option.json \
 				-t ${THEME_HTML}
 
-			cp assets/profile.jpg builds/html/profile.jpg
+			cp assets/profile.jpg ${CV_FOLDER_PATH_HTML}/profile.jpg
 
 			if [ -f src/${lang}/${lang}-complement-jrs.json ]; then
 				hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
@@ -133,6 +135,7 @@ do
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html ${CV_FOLDER_PATH_HTML}/index.html
 				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ${CV_FOLDER_PATH_PDF}/index.pdf
 			fi
+			rm ${CV_FOLDER_PATH_PDF}/profile.jpg
 		fi
 	fi
 done

@@ -25,9 +25,7 @@ pages:
   script:
     - ./scripts/builder.sh
     - mkdir public
-    - cp builds/html/index.html public/index.html
-    - cp builds/pdf/index.pdf public/index.pdf
-    - cp builds/html/profile.jpg public/profile.jpg
+    - ./scripts/packer.sh
   artifacts:
     paths:
     - public

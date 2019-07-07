@@ -116,6 +116,9 @@ The image is based of an nginx image to display the static web page.
 * [X] Test resume schema.
 * [ ] Change titles based on language.
 * [ ] Post resume analysis to gitlab pages and amazon.
+* [ ] pdf is not rendering well when creating inside gitlab ci/cd.
+* [ ] Upload every file to dropbox.
+* [ ] Create sha signature for every file.
 
 ----------------------
 
