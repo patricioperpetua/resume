@@ -88,8 +88,8 @@ for entry in "src"/*
 do
 	if [ -d ${entry} ]; then
 		lang="${entry:4}"
-		echo "found language ${lang}"
 		if [ -f src/${lang}/${lang}-jrs.json ]; then
+			echo "found language ${lang}"
 			# merge jsons to use to jsonresume
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json

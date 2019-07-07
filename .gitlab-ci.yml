@@ -12,6 +12,7 @@ variables:
 stages:
   - test
   - build
+  - analyze
   - deploy
 
 test:
@@ -36,6 +37,18 @@ pages:
       - builds
   only:
   - master
+
+analyze:
+  stage: analyze
+  script:
+    - ./scripts/analyzer.sh
+  artifacts:
+    paths:
+    - public
+    - builds
+  cache:
+    paths:
+      - builds
 
 dropbox:
   stage: deploy
