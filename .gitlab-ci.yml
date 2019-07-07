@@ -17,7 +17,7 @@ stages:
 test:
   stage: test
   script:
-    - ./scripts/tests.sh
+    - ./scripts/test.sh
 
 pages:
   stage: build

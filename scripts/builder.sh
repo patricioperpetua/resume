@@ -105,6 +105,8 @@ do
 				-o src/${lang}/${lang}-option.json \
 				-t ${THEME_PDF}
 
+			rm ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf.html
+
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html \
 				-o src/${lang}/${lang}-option.json \
@@ -122,6 +124,8 @@ do
 					TO ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf \
 					-o src/${lang}/${lang}-option.json \
 					-t ${THEME_PDF}
+
+				rm ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf.html
 
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html ${CV_FOLDER_PATH_HTML}/index.html
 			else
