@@ -8,6 +8,11 @@ This project contains my personal resume or CV. It uses [jsonresume](https://jso
 
 > The **main repository** is hosted in [gitlab.com](https://gitlab.com/patricioperpetua/resume) but it is automaticaly mirrored to [github.com](https://github.com/patricioperpetua/resume.git). If you are in the Github page it may occur that is not updated to the last version.
 
+You can check the last built resume in gitlab pages following:
+
+* [https://patricioperpetua.gitlab.io/resume/](https://patricioperpetua.gitlab.io/resume/)
+* [https://patricioperpetua.gitlab.io/resume/index.pdf](https://patricioperpetua.gitlab.io/resume/index.pdf)
+
 ## HOW TO USE IT
 
 ### INSTALATION
@@ -104,11 +109,13 @@ The image is based of an nginx image to display the static web page.
 * [X] Split resume in basic, common and complementary.
 * [X] Document how to use repository.
 * [X] Generate build script.
-* [ ] Fix packer script.
-* [ ] Config gitlab ci/cd.
+* [X] Fix packer script.
+* [X] Config gitlab ci/cd.
+* [X] Add amazon s3 uploader script.
 * [ ] Add docker support.
 * [X] Test resume schema.
 * [ ] Change titles based on language.
+* [ ] Post resume analysis to gitlab pages and amazon.
 
 ----------------------
 

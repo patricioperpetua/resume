@@ -23,7 +23,11 @@ FTP_USER=
 FTP_PASS=
 FTP_PORT=21
 
-DROPBOX_ACCESS_TOKEN=
+if [ -z ${DROPBOX_ACCESS_TOKEN+x} ]; then
+    DROPBOX_ACCESS_TOKEN=
+else
+    echo "dropbox access token provided."
+fi
 DROPBOX_FOLDER=resume
 
 AMAZON_S3_BUCKET="patricioperpetuaweb"
