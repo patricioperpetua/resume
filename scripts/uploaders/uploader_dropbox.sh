@@ -36,14 +36,14 @@ do
 			echo "${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
 			curl -X POST https://content.dropboxapi.com/2/files/upload \
 				--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
-				--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/${VERSION}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf\"}" \
+				--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/${VERSION}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf\", \"mode\": \"overwrite\"}" \
 				--header "Content-Type: application/octet-stream" \
 				--data-binary @"${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
 			if [ -f ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ]; then
 			echo "${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf"
 				curl -X POST https://content.dropboxapi.com/2/files/upload \
 					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
-					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/${VERSION}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf\"}" \
+					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/${VERSION}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf\", \"mode\": \"overwrite\"}" \
 					--header "Content-Type: application/octet-stream" \
 					--data-binary @"${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf"
 			fi
