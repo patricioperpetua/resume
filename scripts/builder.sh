@@ -92,13 +92,11 @@ do
 		if [ -f src/${lang}/${lang}-jrs.json ]; then
 			# merge jsons to use to jsonresume
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
-				TO ${CV_FOLDER_PATH}/resume.json \
-				-o src/${lang}/${lang}-option.json
+				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json
 
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				src/${lang}/${lang}-complement-jrs.json \
-				TO ${CV_FOLDER_PATH}/resume-complement.json \
-				-o src/${lang}/${lang}-option.json
+				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json
 
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf \
@@ -128,7 +126,7 @@ do
 				rm ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf.html
 
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html ${CV_FOLDER_PATH_HTML}/index.html
-				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf ${CV_FOLDER_PATH_HTML}/index.pdf
+				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf ${CV_FOLDER_PATH_PDF}/index.pdf
 			else
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html ${CV_FOLDER_PATH_HTML}/index.html
 				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ${CV_FOLDER_PATH_PDF}/index.pdf

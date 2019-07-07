@@ -1,7 +1,7 @@
 image: node:8-alpine
 
 before_script:
-  - apk add --no-cache bash curl git lftp
+  - apk add --no-cache bash curl git lftp wkhtmltopdf
   - ./scripts/installers/installer_all.sh
 
 variables:
@@ -46,4 +46,4 @@ amason_s3:
   before_script:
     - pip install awscli # Install the SDK
   script:
-    - ./scripts/uploaders/uploader_ftp.sh
+    - ./scripts/uploaders/uploader_amazon_s3.sh
