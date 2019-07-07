@@ -122,6 +122,10 @@ do
 					TO ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf \
 					-o src/${lang}/${lang}-option.json \
 					-t ${THEME_PDF}
+
+				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html ${CV_FOLDER_PATH_HTML}/index.html
+			else
+				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html ${CV_FOLDER_PATH_HTML}/index.html
 			fi
 		fi
 	fi

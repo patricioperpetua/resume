@@ -47,16 +47,39 @@ There is also a script to generate the resume in every available theme. It will 
 .scripts/build_all_themes.sh
 ```
 
+## TIPS
+
+In order to create a really good resume, you can see this video of Google Resume Tips.
+
+[![prueba](https://i.ytimg.com/vi/BYUy1yvjHxE/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLA1tnbDVKDFsNemfyUIHfYOdEoHsw)](https://www.youtube.com/watch?v=BYUy1yvjHxE)
+
+If you want to skeep that part and go directly to a very usefull tip, this is the one I follow:
+
+![Job Description](assets/tips/tip_google_job_description.png)
+
+![Job Description](assets/tips/tip_google_job_description_2.png)
+
 ## BRANCHING MODEL
 
-* Default branch when pull is DEVELOP.
+* Default branch when pull is **DEVELOP**.
 * Master branch is protected and it is not possible to push. Create a merge request instead.
 
 ## DEPLOYMENT
 
 Each branch or tag generate the resume in two formats: PDF and HTML.
-    * **PDF:** is saved in an amazon S3 instance. Location of the file depends of the branch or tag associated with the file. See above for more details.
+    * **PDF:** is saved in an amazon S3 instance and in a dropbox folder. Location of the file depends of the branch or tag associated with the file. See above for more details.
     * **HTML:** is saved in an amazon AWS Amplify where an angular APP will take it as an asset to display.
+
+### CONFIGURATION
+
+#### DROPBOX
+
+Follow [this steps](http://99rabbits.com/get-dropbox-access-token/) to get a dropbox api token. Then save it inside gitlab CI/CD variables under the name **DROPBOX_ACCESS_TOKEN**.
+
+#### AMAZON S3
+
+Follow [this guide](https://support.infinitewp.com/support/solutions/articles/212258-where-are-my-amazon-s3-credentials-) to create a bucket inside amazon s3 and create a user with read and write access. Then save the **Access key ID and Secret access key** as
+ following: **AMAZON_S3_RESUME_WR_ACCESS_KEY_ID** and **AMAZON_S3_RESUME_WR_SECRET_ACCESS_KEY**.
 
 ### LOCATIONS OF FILES
 
@@ -84,6 +107,8 @@ The image is based of an nginx image to display the static web page.
 * [ ] Fix packer script.
 * [ ] Config gitlab ci/cd.
 * [ ] Add docker support.
+* [X] Test resume schema.
+* [ ] Change titles based on language.
 
 ----------------------
 

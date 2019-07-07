@@ -1,38 +1,60 @@
 {
-  "meta": {
-    "canonical": "https://",
-    "version": "v1.0.0",
-    "lastModified": "2019-07-06T04:35:00"
-  },
   "basics":{
-    "summary": "This resume contains my last 4 projects. You can find out more in my personal or enterprise webpage. I am looking for a job related to DevOps, docker, CI/CD, Kubernetes or backend services. I’m available to change location from August 1st. Language preference: English. NO HR companies neither consultants companies. Available to change location inside Europe."
+    "summary": "This resume contains my 4 most important projects as a freelancer. You can find out more in my personal or enterprise webpage. I am looking for a dependency or freelance job related to DevOps, docker, CI/CD or backend services. I’m available to change location from August 1st. Language preference: English. Available to change location inside Europe."
   },
   "work": [
     {
       "company": "Singleton Software Development",
       "position": "CoFounder",
       "website": "http://www.singletonsd.com",
-      "startDate": "2014-01-01",
-      "endDate": "",
-      "summary": "After 2 years of freelancing, I found my own company to start a real software enterprise",
+      "startDate": "2014-01",
+      "summary": "Cofounded a software enterprise my own company after 2 years of freelancing.",
       "highlights": [
         "More than 15 clients",
-        "1 client in France",
-        "1 client in Australia",
-        "More details in website"
+        "Clients in Argentina, Australia, France and Italy"
       ]
     },
     {
       "company": "RavimoShark (France)",
-      "position": "College Internship",
-      "website": "www.ravimoshark.com",
-      "startDate": "2017-06-26",
-      "endDate": "2018-01-22",
-      "summary": "I developed 2 java programs to migrate information for different databases, 1 API in NodeJS and 2 android applications (multilingual).",
+      "position": "FullStack Developer",
+      "website": "http://www.ravimoshark.com",
+      "startDate": "2017-06",
+      "summary": "Improved database schema by applying normalization. Developed an API in NodeJS, 2 android application and angular e-commerce. I started to do an internship and from 2018 they became my client.",
       "highlights": [
-        "OPERATIVE SYSTEMS: Android, Linux",
-        "FRAMEWORKS: NodeJS, Hibernate",
-        "LANGUAJES: Java, JavaScript"
+        "Android, Angular, Azure, Docker, Hibernate",
+        "Jasper Reports, Java, MSSQL, NodeJS, Swagger"
+      ]
+    },
+    {
+      "company": "TLC (Argentina)",
+      "position": "Fullstack Developer",
+      "website": "https://www.vamosalacarga.com.ar",
+      "startDate": "2018-06",
+      "summary": "Developed a project from scratch for a shipping company to track deliveries in a website. Maintained server to run services.",
+      "highlights": [
+        "Angular, CentOS, Docker, MySQL",
+        "NodeJS, Swagger, TypeScript"
+      ]
+    },
+    {
+      "company": "Intelydrone (Argentina)",
+      "position": "Backend Developer",
+      "website": "http://www.intelydrone.com",
+      "startDate": "2018-02",
+      "summary": "Developed an API in NodeJS for a farm tech company. Maintained server to run services.",
+      "highlights": [
+        "CentOS, Docker, MongoDB, NodeJS, Swagger"
+      ]
+    },
+    {
+      "company": "FiscalizAR (Argentina)",
+      "position": "Founder",
+      "website": "https://gitlab.com/fiscalizar",
+      "startDate": "2015",
+      "summary": "Created a open source project to help counting votes in Argentina's elections.",
+      "highlights": [
+        "Android, Angular, Docker, MySQL",
+        "NodeJS, SQLite, Swagger, TypeScript"
       ]
     }
   ],

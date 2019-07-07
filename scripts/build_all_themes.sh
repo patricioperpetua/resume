@@ -56,15 +56,29 @@ do
 			for theme in ${AVAILABLE_THEMES[@]}
             do
                 echo "Using theme ${theme}..."
-                hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
-                    TO ${CV_FOLDER_PATH}/all/${CV_OUTPUT_FILE_NAME}-${theme}-${lang}.pdf \
-                    -o src/${lang}/${lang}-option.json \
-                    -t node_modules/jsonresume-theme-${theme}
 
                 hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
                     TO ${CV_FOLDER_PATH}/all/${CV_OUTPUT_FILE_NAME}-${theme}-${lang}.html \
-                    -o src/${lang}/${lang}-option.json \
                     -t node_modules/jsonresume-theme-${theme}
+
+                if [ ${theme} != "elegant" ]; then
+                    hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
+                        TO ${CV_FOLDER_PATH}/all/${CV_OUTPUT_FILE_NAME}-${theme}-${lang}.pdf \
+                        -t node_modules/jsonresume-theme-${theme} --pdf wkhtmltopdf
+                fi
+            done
+			for theme in ${AVAILABLE_THEMES_FRESH[@]}
+            do
+                echo "Using fresh theme ${theme}..."
+                hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
+                    TO ${CV_FOLDER_PATH}/all/${CV_OUTPUT_FILE_NAME}-fresh-${theme}-${lang}.pdf \
+                    -o src/${lang}/${lang}-option.json \
+                    -t ${theme}
+
+                hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
+                    TO ${CV_FOLDER_PATH}/all/${CV_OUTPUT_FILE_NAME}-fresh-${theme}-${lang}.html \
+                    -o src/${lang}/${lang}-option.json \
+                    -t ${theme}
             done
 		fi
 	fi

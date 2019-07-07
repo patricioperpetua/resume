@@ -44,4 +44,5 @@ npm install \
     jsonresume-theme-kwan \
     jsonresume-theme-onepage \
     jsonresume-theme-spartan \
-    jsonresume-theme-stackoverflow
+    jsonresume-theme-stackoverflow \
+    fresh-standard/fresh-themes

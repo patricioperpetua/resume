@@ -29,11 +29,18 @@ fi
 if [ -d builds/${VERSION} ]; then
 	echo -ne "Deleting older files under ${VERSION} folder...\n"
 	rm -r builds/${VERSION}
+else
+	mkdir -p builds/${VERSION}
 fi
-mkdir -p builds/${VERSION}
 
-for lang in ${LANGUAGES[@]}
+for entry in "src"/*
 do
+	if [ -d ${entry} ]; then
+		lang="${entry:4}"
+		echo "found language ${lang}"
+		if [ -f src/${lang}/${lang}-jrs.json ]; then
+		fi
+
 	mkdir LATEST/${lang}
 	mkdir ${VERSION}/${lang}
 	echo -ne "*Copying cv (${lang}):\n"

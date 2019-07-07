@@ -1,14 +1,9 @@
 {
-  "meta": {
-    "canonical": "https://",
-    "version": "v1.0.0",
-    "lastModified": "2019-07-06T04:35:00"
-  },
   "basics": {
     "name": "Eng. Patricio PERPETUA",
     "label": "2019-07",
-    "image": "../assets/profile.jpg",
-    "picture": "../assets/profile.jpg",
+    "image": "../../assets/profile.jpg",
+    "picture": "../../assets/profile.jpg",
     "email": "patricio.perpetua.arg@gmail.com",
     "phone": "+393519651992",
     "website": "https://patricioperpetua.com",
