@@ -110,6 +110,8 @@ do
 				-o src/${lang}/${lang}-option.json \
 				-t ${THEME_HTML}
 
+			cp assets/profile.jpg builds/html/profile.jpg
+
 			if [ -f src/${lang}/${lang}-complement-jrs.json ]; then
 				hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 					src/${lang}/${lang}-complement-jrs.json \

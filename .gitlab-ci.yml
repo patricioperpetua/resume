@@ -26,6 +26,7 @@ pages:
     - mkdir public
     - cp builds/html/index.html public/index.html
     - cp builds/pdf/index.pdf public/index.pdf
+    - cp builds/html/profile.jpg public/profile.jpg
   artifacts:
     paths:
     - public

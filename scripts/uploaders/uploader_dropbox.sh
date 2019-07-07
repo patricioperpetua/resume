@@ -20,17 +20,33 @@ __root="$(cd "$(dirname "${__dir}")" && pwd)"
 #Setting global variables.
 source scripts/config.sh
 
-#Changing to builds folder.
-cd ${CV_FOLDER_PATH}
+# To create a folder if needed
+# curl -X POST https://api.dropboxapi.com/2/files/create_folder_v2 \
+#     --header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
+#     --header "Content-Type: application/json" \
+#     --data "{\"path\": \"/${DROPBOX_FOLDER}/${VERSION}\",\"autorename\": false}" \
+# 	> /dev/null 2>&1
 
 for entry in "src"/*
 do
-	if [ -f ${CV_FOLDER_PATH}/pdf/${CV_OUTPUT_FILE_NAME}-${lang}.${format} ]; then
-		echo "${CV_OUTPUT_FILE_NAME}-${lang}.${format}"
-		curl -X POST https://content.dropboxapi.com/2/files/upload \
-			--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
-			--header "Dropbox-API-Arg: {\"path\": \"${DROPBOX_FOLDER}/${VERSION}/${lang}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf\"}" \
-			--header "Content-Type: application/octet-stream" \
-			--data-binary @"${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
+	lang="${entry:4}"
+	if [ -f src/${lang}/${lang}-jrs.json ]; then
+		echo "found language ${lang}"
+		if [ -f ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ]; then
+			echo "${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
+			curl -X POST https://content.dropboxapi.com/2/files/upload \
+				--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
+				--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/${VERSION}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf\"}" \
+				--header "Content-Type: application/octet-stream" \
+				--data-binary @"${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
+			if [ -f ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ]; then
+			echo "${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf"
+				curl -X POST https://content.dropboxapi.com/2/files/upload \
+					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
+					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/${VERSION}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf\"}" \
+					--header "Content-Type: application/octet-stream" \
+					--data-binary @"${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf"
+			fi
+		fi
 	fi
 done

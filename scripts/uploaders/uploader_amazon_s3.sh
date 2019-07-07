@@ -20,4 +20,4 @@ __root="$(cd "$(dirname "${__dir}")" && pwd)"
 #Setting global variables.
 source scripts/config.sh
 
-aws s3 cp ${CV_FOLDER_PATH} s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER} --recursive
+aws s3 cp ${CV_FOLDER_PATH} s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/${VERSION} --recursive
