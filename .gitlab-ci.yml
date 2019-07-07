@@ -1,11 +1,11 @@
 image: node:8-alpine
 
 before_script:
-  - apk add --no-cache bash curl git lftp wkhtmltopdf
+  - apk add --no-cache bash curl git lftp wkhtmltopdf libgcc libstdc++ libx11 glib libxrender libxext libintl libcrypto1.0 libssl1.0 ttf-dejavu ttf-droid ttf-freefont ttf-liberation ttf-ubuntu-font-family
   - ./scripts/installers/installer_all.sh
 
 variables:
-  AWS_DEFAULT_REGION: eu-west-3 # The region of our S3 bucket
+  AWS_DEFAULT_REGION: eu-west-3 # The region of S3 bucket
   AWS_ACCESS_KEY_ID: ${AMAZON_S3_RESUME_WR_ACCESS_KEY_ID}
   AWS_SECRET_ACCESS_KEY: ${AMAZON_S3_RESUME_WR_SECRET_ACCESS_KEY}
 
