@@ -27,4 +27,4 @@ if  type "sudo" &> /dev/null; then
     SUDO="sudo"
 fi
 
-${SUDO} npm install -g resume-cli
+${SUDO} npm install -g resume-cli --unsafe-perm=true --allow-root
