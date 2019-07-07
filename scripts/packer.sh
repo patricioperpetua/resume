@@ -17,6 +17,10 @@ __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
 __base="$(basename ${__file} .sh)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
+echo "loading configuration from file scripts/config.sh"
+#Setting global variables.
+source scripts/config.sh
+
 cp ${CV_FOLDER_PATH_HTML}/index.html public/index.html
 cp ${CV_FOLDER_PATH_HTML}/profile.jpg public/profile.jpg
 cp ${CV_FOLDER_PATH_PDF}/index.pdf public/index.pdf
