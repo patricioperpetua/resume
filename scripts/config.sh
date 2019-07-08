@@ -32,3 +32,9 @@ DROPBOX_FOLDER=resume
 
 AMAZON_S3_BUCKET="patricioperpetuaweb"
 AMAZON_S3_FOLDER="resume"
+
+BRANCH="$(git branch | grep \* | cut -d ' ' -f2)"
+echo "Current branch: ${BRANCH}"
+if [ "${BRANCH}" == "master" ]; then
+	echo "Uploading latest content."
+fi

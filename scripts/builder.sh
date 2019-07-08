@@ -85,7 +85,7 @@ else
 fi
 
 CV_FOLDER_PATH_LATEST=
-if [ $(git branch | grep \* | cut -d ' ' -f2) == "master" ]; then
+if [ "${BRANCH}" == "master" ]; then
 	CV_FOLDER_PATH_LATEST="${CV_FOLDER_NAME}/latest"
 	mkdir -p ${CV_FOLDER_PATH_LATEST}
 fi
