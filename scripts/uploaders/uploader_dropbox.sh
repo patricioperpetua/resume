@@ -54,7 +54,7 @@ do
 				--header "Content-Type: application/octet-stream" \
 				--data-binary @"${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json"
 
-			if [ $(git branch | grep \* | cut -d ' ' -f2) == "master" ]; then
+			if [ "${CURRENT_BRANCH}" == "master" ]; then
 				curl -X POST https://content.dropboxapi.com/2/files/upload \
 					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
 					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.pdf\", \"mode\": \"overwrite\"}" \
@@ -94,7 +94,7 @@ do
 					--header "Content-Type: application/octet-stream" \
 					--data-binary @"${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json"
 
-				if [ $(git branch | grep \* | cut -d ' ' -f2) == "master" ]; then
+				if [ "${CURRENT_BRANCH}" == "master" ]; then
 					curl -X POST https://content.dropboxapi.com/2/files/upload \
 						--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
 						--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf\", \"mode\": \"overwrite\"}" \

@@ -22,6 +22,6 @@ source scripts/config.sh
 
 aws s3 cp ${CV_FOLDER_PATH} s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/${VERSION} --recursive
 
-if [ "$(git branch | grep \* | cut -d ' ' -f2)" == "master" ]; then
+if [ "${CURRENT_BRANCH}" == "master" ]; then
 	aws s3 cp ${CV_FOLDER_NAME}/latest s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/latest --recursive
 fi
