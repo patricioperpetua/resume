@@ -1,7 +1,7 @@
 image: surnet/alpine-node-wkhtmltopdf:10.15.3-0.12.5-full
 
 before_script:
-  - apk add --no-cache bash curl git lftp msttcorefonts-installer fontconfig && update-ms-fonts && fc-cache -f
+  - apk add --no-cache bash curl git lftp msttcorefonts-installer fontconfig libxrender-dev libintl libgcc ttf-font-awesome ttf-cantarell ttf-inconsolata ttf-opensans ttf-linux-libertine && update-ms-fonts && fc-cache -f
   - ./scripts/installers/installer_all.sh
 
 variables:
