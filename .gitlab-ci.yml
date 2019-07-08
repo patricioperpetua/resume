@@ -1,13 +1,12 @@
 image: node:8-alpine
 
 before_script:
-  - apk add --no-cache bash curl git lftp wget wkhtmltopdf
-  #ca-certificates unzip msttcorefonts-installer fontconfig libxrender-dev libintl libgcc ttf-inconsolata ttf-linux-libertine && update-ms-fonts
-  #- wget https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-desktop.zip -O fontAwesome.zip
-  #- unzip fontAwesome.zip
-  #- mkdir -p /usr/share/fonts/opentype
-  #- mv fontawesome-free-5.9.0-desktop/otfs /usr/share/fonts/opentype
-  #- fc-cache -fv
+  - apk add --no-cache bash curl git lftp wget wkhtmltopdf ca-certificates unzip msttcorefonts-installer fontconfig libgcc libstdc++ libx11 glib libxrender-dev libintl libgcc libcrypto1.1 libssl1.1  ttf-inconsolata ttf-linux-libertine ttf-dejavu ttf-droid ttf-freefont ttf-liberation ttf-ubuntu-font-family && update-ms-fonts
+  - wget https://use.fontawesome.com/releases/v5.9.0/fontawesome-free-5.9.0-desktop.zip -O fontAwesome.zip
+  - unzip fontAwesome.zip
+  - mkdir -p /usr/share/fonts/opentype
+  - mv fontawesome-free-5.9.0-desktop/otfs /usr/share/fonts/opentype
+  - fc-cache -fv
   - ./scripts/installers/installer_all.sh
 
 variables:
