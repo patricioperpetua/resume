@@ -25,6 +25,8 @@ To install just type:
 ./scripts/installers/installer_all.sh
 ```
 
+> **DISCLAIMER:** for some reasons I'm not aware, depending of which version of wkhtmltopdf are you using, It is how the PDF will render. So, be my guest to install the version you like from [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html).
+
 ### STRUCTURE
 
 Under **src** folder, jsons files are placed. Inside that folder, a file called basics.json can be found. This file was created to save all basic information such as name, email, information contact and so on.
@@ -117,8 +119,9 @@ The image is based of an nginx image to display the static web page.
 * [ ] Change titles based on language.
 * [X] Post resume analysis to gitlab pages and amazon.
 * [X] pdf is not rendering well when creating inside gitlab ci/cd.
-* [ ] Upload every file to dropbox.
+* [X] Upload every file to dropbox.
 * [ ] Create sha signature for every file.
+* [ ] Sign pdf.
 
 ----------------------
 

@@ -84,6 +84,12 @@ else
 	mkdir -p ${CV_FOLDER_PATH_HTML}
 fi
 
+CV_FOLDER_PATH_LATEST=
+if [ $(git branch | grep \* | cut -d ' ' -f2) == "master" ]; then
+	CV_FOLDER_PATH_LATEST="${CV_FOLDER_NAME}/latest"
+	mkdir -p ${CV_FOLDER_PATH_LATEST}
+fi
+
 for entry in "src"/*
 do
 	if [ -d ${entry} ]; then
@@ -93,10 +99,6 @@ do
 			# merge jsons to use to jsonresume
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json
-
-			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
-				src/${lang}/${lang}-complement-jrs.json \
-				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json
 
 			cp assets/profile.jpg ${CV_FOLDER_PATH_PDF}/profile.jpg
 
@@ -114,7 +116,23 @@ do
 
 			cp assets/profile.jpg ${CV_FOLDER_PATH_HTML}/profile.jpg
 
+			if [ "${CV_FOLDER_PATH_LATEST}" != "" ]; then
+				cp ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json \
+					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.json
+
+				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf \
+					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.pdf
+
+				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html \
+					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.html
+			fi
+
+
 			if [ -f src/${lang}/${lang}-complement-jrs.json ]; then
+				hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
+				src/${lang}/${lang}-complement-jrs.json \
+				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json
+
 				hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 					src/${lang}/${lang}-complement-jrs.json \
 					TO ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html \
@@ -128,6 +146,17 @@ do
 					-t ${THEME_PDF}
 
 				rm ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf.html
+
+				if [ "${CV_FOLDER_PATH_LATEST}" != "" ]; then
+					cp ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.json \
+						${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.json
+
+					cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html \
+						${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.html
+
+					cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf \
+						${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf
+				fi
 
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html ${CV_FOLDER_PATH_HTML}/index.html
 				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf ${CV_FOLDER_PATH_PDF}/index.pdf
