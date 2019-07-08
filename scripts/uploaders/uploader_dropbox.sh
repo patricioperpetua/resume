@@ -57,21 +57,21 @@ do
 			if [ "${CURRENT_BRANCH}" == "master" ]; then
 				curl -X POST https://content.dropboxapi.com/2/files/upload \
 					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
-					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.pdf\", \"mode\": \"overwrite\"}" \
+					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/pdf/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.pdf\", \"mode\": \"overwrite\"}" \
 					--header "Content-Type: application/octet-stream" \
-					--data-binary @"${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
+					--data-binary @"${CV_FOLDER_PATH_LATEST}/pdf/${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
 
 				curl -X POST https://content.dropboxapi.com/2/files/upload \
 					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
-					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.html\", \"mode\": \"overwrite\"}" \
+					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/html${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.html\", \"mode\": \"overwrite\"}" \
 					--header "Content-Type: application/octet-stream" \
-					--data-binary @"${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html"
+					--data-binary @"${CV_FOLDER_PATH_LATEST}/html/${CV_OUTPUT_FILE_NAME}-${lang}.html"
 
 				curl -X POST https://content.dropboxapi.com/2/files/upload \
 					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
 					--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.json\", \"mode\": \"overwrite\"}" \
 					--header "Content-Type: application/octet-stream" \
-					--data-binary @"${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json"
+					--data-binary @"${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME}-${lang}.json"
 			fi
 
 			if [ -f ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ]; then
@@ -99,13 +99,13 @@ do
 						--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
 						--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf\", \"mode\": \"overwrite\"}" \
 						--header "Content-Type: application/octet-stream" \
-						--data-binary @"${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf"
+						--data-binary @"${CV_FOLDER_PATH_LATEST}/pdf/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf"
 
 					curl -X POST https://content.dropboxapi.com/2/files/upload \
 						--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
 						--header "Dropbox-API-Arg: {\"path\": \"/${DROPBOX_FOLDER}/latest/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.html\", \"mode\": \"overwrite\"}" \
 						--header "Content-Type: application/octet-stream" \
-						--data-binary @"${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.html"
+						--data-binary @"${CV_FOLDER_PATH_LATEST}/html/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.html"
 
 					curl -X POST https://content.dropboxapi.com/2/files/upload \
 						--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \

@@ -117,14 +117,17 @@ do
 			cp assets/profile.jpg ${CV_FOLDER_PATH_HTML}/profile.jpg
 
 			if [ "${CV_FOLDER_PATH_LATEST}" != "" ]; then
+				mkdir -p ${CV_FOLDER_PATH_LATEST}/pdf
+				mkdir -p ${CV_FOLDER_PATH_LATEST}/html
+
 				cp ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json \
 					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.json
 
 				cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf \
-					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.pdf
+					${CV_FOLDER_PATH_LATEST}/pdf/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.pdf
 
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}.html \
-					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.html
+					${CV_FOLDER_PATH_LATEST}/html/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.html
 			fi
 
 
@@ -152,10 +155,10 @@ do
 						${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.json
 
 					cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html \
-						${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.html
+						${CV_FOLDER_PATH_LATEST}/html/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.html
 
 					cp ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf \
-						${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf
+						${CV_FOLDER_PATH_LATEST}/pdf/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}-complement.pdf
 				fi
 
 				cp ${CV_FOLDER_PATH_HTML}/${CV_OUTPUT_FILE_NAME}-${lang}-complement.html ${CV_FOLDER_PATH_HTML}/index.html
