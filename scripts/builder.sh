@@ -85,7 +85,7 @@ else
 fi
 
 CV_FOLDER_PATH_LATEST=
-if [ "${BRANCH}" == "master" ]; then
+if [ "${CURRENT_BRANCH}" == "master" ]; then
 	CV_FOLDER_PATH_LATEST="${CV_FOLDER_NAME}/latest"
 	mkdir -p ${CV_FOLDER_PATH_LATEST}
 fi
