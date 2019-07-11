@@ -26,6 +26,19 @@ test:
   script:
     - ./scripts/test.sh
 
+build:
+  stage: build
+  script:
+    - ./scripts/builder.sh
+  artifacts:
+    paths:
+      - builds
+  cache:
+    paths:
+      - builds
+  except:
+    - master
+
 pages:
   stage: build
   script:
