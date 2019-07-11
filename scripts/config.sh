@@ -4,6 +4,17 @@ CV_NAME="Patricio_Perpetua"
 
 VERSION=`cat VERSION`
 
+if [ -z ${CURRENT_BRANCH+x} ]; then
+    CURRENT_BRANCH="$(git branch | grep \* | cut -d ' ' -f2)"
+fi
+echo "Current branch: ${CURRENT_BRANCH}"
+if [ "${CURRENT_BRANCH}" == "master" ]; then
+	echo "Uploading latest content."
+else
+    echo "Building for a branch content."
+    VERSION="${CURRENT_BRANCH}"
+fi
+
 CV_FOLDER_NAME=builds
 CV_FOLDER_PATH=${CV_FOLDER_NAME}/${VERSION}
 CV_FOLDER_PATH_PDF=${CV_FOLDER_PATH}/pdf
@@ -32,11 +43,3 @@ DROPBOX_FOLDER=resume
 
 AMAZON_S3_BUCKET="patricioperpetuaweb"
 AMAZON_S3_FOLDER="resume"
-
-if [ -z ${CURRENT_BRANCH+x} ]; then
-    CURRENT_BRANCH="$(git branch | grep \* | cut -d ' ' -f2)"
-fi
-echo "Current branch: ${CURRENT_BRANCH}"
-if [ "${CURRENT_BRANCH}" == "master" ]; then
-	echo "Uploading latest content."
-fi
