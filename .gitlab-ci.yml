@@ -19,6 +19,7 @@ stages:
   - test
   - build
   - analyze
+  - pages
   - deploy
 
 test:
@@ -29,6 +30,7 @@ test:
 build:
   stage: build
   script:
+    - rm -r builds/
     - ./scripts/builder.sh
   artifacts:
     paths:
@@ -36,19 +38,12 @@ build:
   cache:
     paths:
       - builds
-  except:
-    - master
 
 pages:
-  stage: build
+  stage: pages
   script:
-    - ./scripts/builder.sh
     - mkdir public
     - ./scripts/packer.sh
-  artifacts:
-    paths:
-    - public
-    - builds
   cache:
     paths:
       - builds
