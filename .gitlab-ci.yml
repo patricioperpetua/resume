@@ -30,7 +30,7 @@ test:
 build:
   stage: build
   script:
-    - rm -r builds/
+    - rm -rf builds/
     - ./scripts/builder.sh
   artifacts:
     paths:
