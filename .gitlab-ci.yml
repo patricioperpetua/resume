@@ -46,7 +46,7 @@ pages:
   artifacts:
     paths:
       - builds
-      - pages
+      - public
   only:
   - master
 
