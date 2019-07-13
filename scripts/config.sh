@@ -42,4 +42,4 @@ fi
 DROPBOX_FOLDER=resume
 
 AMAZON_S3_BUCKET="patricioperpetuaweb"
-AMAZON_S3_FOLDER="resume"
+AMAZON_S3_FOLDER="assets/resume"
