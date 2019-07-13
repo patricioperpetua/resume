@@ -120,6 +120,8 @@ do
 				mkdir -p ${CV_FOLDER_PATH_LATEST}/pdf
 				mkdir -p ${CV_FOLDER_PATH_LATEST}/html
 
+				cp assets/profile.jpg ${CV_FOLDER_PATH_LATEST}/html/profile.jpg
+
 				cp ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json \
 					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.json
 
