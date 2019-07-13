@@ -18,7 +18,7 @@ variables:
 stages:
   - test
   - build
-  - analyze
+  - pages
   - deploy
 
 test:
@@ -26,31 +26,35 @@ test:
   script:
     - ./scripts/test.sh
 
-pages:
+build:
   stage: build
   script:
+    - rm -rf builds/
     - ./scripts/builder.sh
+  artifacts:
+    paths:
+      - builds
+  cache:
+    paths:
+      - builds
+
+pages:
+  stage: pages
+  script:
     - mkdir public
     - ./scripts/packer.sh
   artifacts:
     paths:
-    - public
-    - builds
-  cache:
-    paths:
       - builds
+      - pages
   only:
   - master
 
 analyze:
-  stage: analyze
+  stage: deploy
   script:
     - ./scripts/analyzer.sh
   artifacts:
-    paths:
-    - public
-    - builds
-  cache:
     paths:
       - builds
 
