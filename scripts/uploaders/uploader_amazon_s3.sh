@@ -20,8 +20,8 @@ __root="$(cd "$(dirname "${__dir}")" && pwd)"
 #Setting global variables.
 source scripts/config.sh
 
-aws s3 cp ${CV_FOLDER_PATH} s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/${VERSION} --recursive
+aws s3 cp --acl public-read ${CV_FOLDER_PATH} s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/${VERSION} --recursive
 
 if [ "${CURRENT_BRANCH}" == "master" ]; then
-	aws s3 cp ${CV_FOLDER_NAME}/latest s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/latest --recursive
+	aws s3 cp --acl public-read ${CV_FOLDER_NAME}/latest s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/latest --recursive
 fi
