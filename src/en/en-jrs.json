@@ -1,6 +1,6 @@
 {
   "basics":{
-    "summary": "This resume contains my 4 most important projects as a freelancer. You can find out more in my personal or enterprise webpage. I am looking for a dependency or freelance job related to DevOps, docker, CI/CD or backend services. I’m available to change location from August 1st. Language preference: English. Available to change location inside Europe."
+    "summary": "This resume contains my most four important projects as a freelancer. You can find out more in my personal or enterprise webpage. I am looking for a dependency or freelance job related to DevOps, docker, CI/CD or backend services. I’m available to change location. Language preference: English."
   },
   "work": [
     {
@@ -8,7 +8,7 @@
       "position": "CoFounder",
       "website": "http://www.singletonsd.com",
       "startDate": "2014-01",
-      "summary": "Cofounded a software enterprise my own company after 2 years of freelancing.",
+      "summary": "CoFounded a software enterprise by my own company after 2 years of freelancing.",
       "highlights": [
         "More than 15 clients",
         "Clients in Argentina, Australia, France and Italy"
@@ -19,7 +19,7 @@
       "position": "FullStack Developer",
       "website": "http://www.ravimoshark.com",
       "startDate": "2017-06",
-      "summary": "Improved database schema by applying normalization. Developed an API in NodeJS, 2 android application and angular e-commerce. I started to do an internship and from 2018 they became my client.",
+      "summary": "Improved database schema by applying normalization. Developed an API in NodeJS, 2 android application and angular e-commerce. It started as an internship but from 2018 they became a new client.",
       "highlights": [
         "Android, Angular, Azure, Docker, Hibernate",
         "Jasper Reports, Java, MSSQL, NodeJS, Swagger"
@@ -30,7 +30,7 @@
       "position": "Fullstack Developer",
       "website": "https://www.vamosalacarga.com.ar",
       "startDate": "2018-06",
-      "summary": "Developed a project from scratch for a shipping company to track deliveries in a website. Maintained server to run services.",
+      "summary": "Developed a complete project from scratch for a shipping company to track deliveries in a website. Maintained server to run services.",
       "highlights": [
         "Angular, CentOS, Docker, MySQL",
         "NodeJS, Swagger, TypeScript"
@@ -51,7 +51,7 @@
       "position": "Founder",
       "website": "https://gitlab.com/fiscalizar",
       "startDate": "2015",
-      "summary": "Created a open source project to help counting votes in Argentina's elections.",
+      "summary": "Created an open source project to help counting votes in Argentina's elections.",
       "highlights": [
         "Android, Angular, Docker, MySQL",
         "NodeJS, SQLite, Swagger, TypeScript"
