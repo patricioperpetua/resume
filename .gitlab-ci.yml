@@ -59,8 +59,11 @@ dropbox:
   stage: deploy
   script:
     - ./scripts/uploaders/uploader_dropbox.sh
+  only:
+    variables:
+      - $CI_PROJECT_PATH == "patricioperpetua/resume"
 
-amason_s3:
+amazon_s3:
   image: python:3.7.3-alpine3.10
   variables:
     AWS_DEFAULT_REGION: eu-west-3 # The region of S3 bucket
@@ -72,3 +75,6 @@ amason_s3:
     - pip install awscli # Install the SDK
   script:
     - ./scripts/uploaders/uploader_amazon_s3.sh
+  only:
+    variables:
+      - $CI_PROJECT_PATH == "patricioperpetua/resume"
