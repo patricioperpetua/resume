@@ -29,6 +29,8 @@ if ! type "resume" &> /dev/null; then
     exit 1
 fi
 
+PROFILE_IMAGE="profile_reduced.jpg"
+
 echo "loading configuration from file scripts/config.sh"
 #Setting global variables.
 source scripts/config.sh
@@ -100,7 +102,7 @@ do
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json
 
-			cp assets/profile.jpg ${CV_FOLDER_PATH_PDF}/profile.jpg
+			cp assets/${PROFILE_IMAGE} ${CV_FOLDER_PATH_PDF}/profile.jpg
 
 			hackmyresume build src/basics.json src/${lang}/${lang}-jrs.json \
 				TO ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf \
@@ -114,13 +116,13 @@ do
 				-o src/${lang}/${lang}-option.json \
 				-t ${THEME_HTML}
 
-			cp assets/profile.jpg ${CV_FOLDER_PATH_HTML}/profile.jpg
+			cp assets/${PROFILE_IMAGE} ${CV_FOLDER_PATH_HTML}/profile.jpg
 
 			if [ "${CV_FOLDER_PATH_LATEST}" != "" ]; then
 				mkdir -p ${CV_FOLDER_PATH_LATEST}/pdf
 				mkdir -p ${CV_FOLDER_PATH_LATEST}/html
 
-				cp assets/profile.jpg ${CV_FOLDER_PATH_LATEST}/html/profile.jpg
+				cp assets/${PROFILE_IMAGE} ${CV_FOLDER_PATH_LATEST}/html/profile.jpg
 
 				cp ${CV_FOLDER_PATH}/${CV_OUTPUT_FILE_NAME}-${lang}.json \
 					${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME_LATEST}-${lang}.json
