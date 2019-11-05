@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Eng. Patricio PERPETUA",
-    "label": "2019-07",
+    "label": "2019-11",
     "image": "profile.jpg",
     "picture": "profile.jpg",
-    "email": "patricio.perpetua.arg@gmail.com",
-    "phone": "+393519651992",
+    "email": "patoperpetua@gmail.com",
+    "phone": "+61480190003",
     "website": "https://patricioperpetua.com",
     "location": {
-      "address": "Via Milano 74",
-      "postalCode": "20025",
-      "city": "Legnano",
-      "countryCode": "Italy (IT)",
-      "region": "Milano"
+      "address": "6/126 Homer Street, Earlwood",
+      "postalCode": "2206",
+      "city": "Sydney",
+      "countryCode": "Australia (AU)",
+      "region": "NSW"
     },
     "profiles": [
       {
@@ -69,7 +69,7 @@
   ],
   "skills": [
     {
-      "name": "SQL Engines",
+      "name": "Database Engines",
       "level": "",
       "keywords": [
         "SQLite",
@@ -82,8 +82,6 @@
       "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "C",
-        "Go",
         "Java",
         "Java Android",
         "JavaScript",
@@ -100,7 +98,7 @@
         "Maven",
         "NodeJS",
         "Swagger",
-        "VueJS"
+        "Spring"
       ]
     },
     {
@@ -112,6 +110,7 @@
         "Docker",
         "Git",
         "Gitlab CI/CD",
+        "Jenkins",
         "Jasper Reports",
         "Liquibase"
       ]
@@ -128,7 +127,7 @@
     },
     {
       "language": "Italian",
-      "fluency": "Beginner"
+      "fluency": "Intermediate"
     },
     {
       "language": "Spanish",
