@@ -1,8 +1,18 @@
 {
   "basics":{
-    "summary": "This resume contains all projects I've been involved. I am looking for a dependency or freelance job related to DevOps, docker, CI/CD or backend services. I’m available to change location. Language preference: English."
+    "summary": "This resume contains all projects I've been involved. I am looking for position related to DevOps, docker, CI/CD or backend services where I can be challenged, learn new languages and improve my skills."
   },
   "work": [
+    {
+      "company": "Intelydrone (Argentina) (Freelance)",
+      "position": "Backend Developer",
+      "website": "http://www.intelydrone.com",
+      "startDate": "2018-02",
+      "summary": "Developed an API in NodeJS for a farm tech company. Maintained server to run services.",
+      "highlights": [
+        "CentOS, Docker, MongoDB, NodeJS, Swagger"
+      ]
+    }
   ],
   "volunteer": [
   ],
