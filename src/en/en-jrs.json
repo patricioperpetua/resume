@@ -1,6 +1,6 @@
 {
   "basics":{
-    "summary": "This resume contains my most four important projects as a freelancer. You can find out more in my personal or enterprise webpage. I am looking for a dependency or freelance job related to DevOps, docker, CI/CD or backend services. I’m available to change location. Language preference: English."
+    "summary": "This resume contains my most four important projects as a freelancer and my last dependency job. You can find out more in my personal or enterprise webpage. I am looking for position related to DevOps, docker, CI/CD or backend services where I can be challenged, learn new languages and improve my skills."
   },
   "work": [
     {
@@ -11,50 +11,48 @@
       "summary": "CoFounded a software enterprise by my own company after 2 years of freelancing.",
       "highlights": [
         "More than 15 clients",
-        "Clients in Argentina, Australia, France and Italy"
+        "Clients in Argentina, France and Italy"
       ]
     },
     {
-      "company": "RavimoShark (France)",
+      "company": "Reply Italy",
+      "position": "DevOps",
+      "website": "https://www.reply.it",
+      "startDate": "2019-07",
+      "endDate": "2019-08",
+      "summary": "Setup Jenkin's pipelines to run different types of tests and send result to Slack.",
+      "highlights": [
+        "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, Sonarqube"
+      ]
+    },
+    {
+      "company": "RavimoShark (France) (Freelance)",
       "position": "FullStack Developer",
       "website": "http://www.ravimoshark.com",
       "startDate": "2017-06",
-      "summary": "Improved database schema by applying normalization. Developed an API in NodeJS, 2 android application and angular e-commerce. It started as an internship but from 2018 they became a new client.",
+      "summary": "Developed microservices in NodeJS, 2 android application and 2 angular apps. It started as an internship but from 2018 they became a new client.",
       "highlights": [
-        "Android, Angular, Azure, Docker, Hibernate",
-        "Jasper Reports, Java, MSSQL, NodeJS, Swagger"
+        "Android, Angular, Azure, Docker, Hibernate, Jasper Reports, Java, MSSQL, NodeJS, Swagger, Keycloak, Netflix Eureka"
       ]
     },
     {
-      "company": "TLC (Argentina)",
+      "company": "TLC (Argentina) (Freelance)",
       "position": "Fullstack Developer",
       "website": "https://www.vamosalacarga.com.ar",
       "startDate": "2018-06",
       "summary": "Developed a complete project from scratch for a shipping company to track deliveries in a website. Maintained server to run services.",
       "highlights": [
-        "Angular, CentOS, Docker, MySQL",
-        "NodeJS, Swagger, TypeScript"
+        "Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript"
       ]
     },
     {
-      "company": "Intelydrone (Argentina)",
-      "position": "Backend Developer",
-      "website": "http://www.intelydrone.com",
-      "startDate": "2018-02",
-      "summary": "Developed an API in NodeJS for a farm tech company. Maintained server to run services.",
-      "highlights": [
-        "CentOS, Docker, MongoDB, NodeJS, Swagger"
-      ]
-    },
-    {
-      "company": "FiscalizAR (Argentina)",
+      "company": "FiscalizAR (Argentina) (Freelance)",
       "position": "Founder",
       "website": "https://gitlab.com/fiscalizar",
       "startDate": "2015",
       "summary": "Created an open source project to help counting votes in Argentina's elections.",
       "highlights": [
-        "Android, Angular, Docker, MySQL",
-        "NodeJS, SQLite, Swagger, TypeScript"
+        "Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript"
       ]
     }
   ],
