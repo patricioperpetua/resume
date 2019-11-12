@@ -1,6 +1,6 @@
 {
   "basics":{
-    "summary": "This resume contains all projects I've been involved. I am looking for position related to DevOps, docker, CI/CD or backend services where I can be challenged, learn new languages and improve my skills."
+    "summary": "This resume contains all projects I've been involved. I am looking for position related to DevOps, docker, CI/CD or backend services where I can be challenged, learn new languages and improve my skills. Working Holiday Visa Until 11/2020."
   },
   "work": [
     {
@@ -11,6 +11,36 @@
       "summary": "Developed an API in NodeJS for a farm tech company. Maintained server to run services.",
       "highlights": [
         "CentOS, Docker, MongoDB, NodeJS, Swagger"
+      ]
+    },
+    {
+      "company": "DilMedica (Argentina) (Freelance)",
+      "position": "FullStack Developer",
+      "startDate": "2016-06",
+      "endDate": "2018-10",
+      "summary": "Developed a Java Desktop Application to manage selling process of surgical suppliers. It produces invoices, reports and statistics.",
+      "highlights": [
+        "Java, SQLite, Java EE, JasperReports"
+      ]
+    },
+    {
+      "company": "Torneo InterCollege (Argentina) (Freelance)",
+      "position": "Android Developer",
+      "startDate": "2015-03",
+      "endDate": "2016-10",
+      "summary": "Developed an Android Application to see different tournament scores.",
+      "highlights": [
+        "Android, Java, SQLite, Java EE"
+      ]
+    },
+    {
+      "company": "Library and Drugstore (Argentina) (Freelance)",
+      "position": "FullStack Developer",
+      "startDate": "2013-11",
+      "endDate": "2016-10",
+      "summary": "Develop several Java Desktop Applications to sell and maintain stock of products.",
+      "highlights": [
+        "Java, SQLite, Java EE, Jasper Reports"
       ]
     }
   ],
