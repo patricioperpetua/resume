@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "Eng. Patricio PERPETUA",
-    "label": "2019-11",
+    "name": "Patricio PERPETUA",
+    "label": "Computer Engineer",
     "image": "profile.jpg",
     "picture": "profile.jpg",
     "email": "patoperpetua@gmail.com",
@@ -50,7 +50,7 @@
   "education": [
     {
       "institution": "Universidad Nacional de Cordoba, Argentina",
-      "area": "Computing Engineer",
+      "area": "Computer Engineer",
       "studyType": "College",
       "startDate": "2012-01-01",
       "endDate": "2018-12-20",
@@ -59,7 +59,7 @@
     },
     {
       "institution": "Ensimag Grenoble INP, France",
-      "area": "Computing Engineer",
+      "area": "Computer Engineer",
       "studyType": "College (One year Exchange)",
       "startDate": "2017-01-01",
       "endDate": "2017-12-01",
