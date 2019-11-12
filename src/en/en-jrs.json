@@ -1,6 +1,6 @@
 {
   "basics":{
-    "summary": "This resume contains my most four important projects as a freelancer and my last dependency job. You can find out more in my personal or enterprise webpage. I am looking for position related to DevOps, docker, CI/CD or backend services where I can be challenged, learn new languages and improve my skills. Working Holiday Visa Until 11/2020."
+    "summary": "I am a hard-working, self-motivated and enthusiastic computer engineer looking for a challenging opportunity. I define my self as a proactive team member who has been part of different type of projects offering solutions ranging from DevOps, docker, CI/CD and backend services. I am willing to join your company since I can add extra value to your team by my international experience and broad knowledge."
   },
   "work": [
     {
@@ -8,19 +8,19 @@
       "position": "CoFounder",
       "website": "http://www.singletonsd.com",
       "startDate": "2014-01",
-      "summary": "CoFounded a software enterprise by my own company after 2 years of freelancing.",
+      "summary": "CoFounded a software company which provides IT services ranging from mobile application development to servers maintenance.",
       "highlights": [
         "More than 15 clients",
         "Clients in Argentina, France and Italy"
       ]
     },
     {
-      "company": "Reply Italy",
+      "company": "Reply (Italy)",
       "position": "DevOps",
       "website": "https://www.reply.it",
       "startDate": "2019-07",
       "endDate": "2019-08",
-      "summary": "Setup Jenkin's pipelines to run different types of tests and send result to Slack.",
+      "summary": "Contract: continuos integration project. Part of a team which setup Jenkins pipelines to run different types of tests and send results to Slack.",
       "highlights": [
         "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, Sonarqube"
       ]
@@ -30,27 +30,27 @@
       "position": "FullStack Developer",
       "website": "http://www.ravimoshark.com",
       "startDate": "2017-06",
-      "summary": "Developed microservices in NodeJS, 2 android application and 2 angular apps. It started as an internship but from 2018 they became a new client.",
+      "summary": "Internship: operations application improvement project. Part of a team which developed microservices in NodeJS, two android applications and two angular applications. This position was initially part of a half a year internship but it evolved to a remote maintenance contract which is still ongoing.",
       "highlights": [
         "Android, Angular, Azure, Docker, Hibernate, Jasper Reports, Java, MSSQL, NodeJS, Swagger, Keycloak, Netflix Eureka"
       ]
     },
     {
-      "company": "TLC (Argentina) (Freelance)",
+      "company": "TLC (Argentina)",
       "position": "Fullstack Developer",
       "website": "https://www.vamosalacarga.com.ar",
       "startDate": "2018-06",
-      "summary": "Developed a complete project from scratch for a shipping company to track deliveries in a website. Maintained server to run services.",
+      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a shipping company to track deliveries on a website. I currently maintain their servers and improve their services.",
       "highlights": [
         "Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript"
       ]
     },
     {
-      "company": "FiscalizAR (Argentina) (Freelance)",
+      "company": "FiscalizAR (Argentina)",
       "position": "Founder",
       "website": "https://gitlab.com/fiscalizar",
       "startDate": "2015",
-      "summary": "Created an open source project to help counting votes in Argentina's elections.",
+      "summary": "Freelance: Open source project to help the community. We developed an open source mobile application to help counting votes in Argentina's elections. The main aim of this project was to avoid corruption and help all parties keep track of their results.",
       "highlights": [
         "Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript"
       ]
@@ -68,5 +68,12 @@
   ],
   "interests": [
   ],
-  "references": []
+  "references": [
+    {
+      "name": "Josseph Assouline  joseph.assouline1@gmail.com"
+    },
+    {
+      "name": "Giuseppe Gambino  giu.gambino@reply.it"
+    }
+  ]
 }
