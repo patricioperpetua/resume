@@ -27,7 +27,7 @@
       ]
     },
     {
-      "company": "RavimoShark (France) (Freelance)",
+      "company": "RavimoShark (France)",
       "position": "FullStack Developer",
       "website": "http://www.ravimoshark.com",
       "startDate": "2017-06",
@@ -56,6 +56,47 @@
       "summary": "Freelance: Open source project to help the community. We developed an open source mobile application to help counting votes in Argentina's elections. The main aim of this project was to avoid corruption and help all parties keep track of their results.",
       "highlights": [
         "Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript"
+      ]
+    },
+    {
+      "company": "Intelydrone (Argentina)",
+      "position": "Backend Developer",
+      "website": "http://www.intelydrone.com",
+      "startDate": "2018-02",
+      "endDate": "2018-10",
+      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a farm tech company to track livestock. I currently maintain their servers and improve their services.",
+      "highlights": [
+        "CentOS, Docker, MongoDB, NodeJS, Swagger"
+      ]
+    },
+    {
+      "company": "DilMedica (Argentina)",
+      "position": "FullStack Developer",
+      "startDate": "2016-06",
+      "endDate": "2018-10",
+      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a prosthesis distributor company. I currently maintain their servers and improve their services.",
+      "highlights": [
+        "Java, SQLite, Java EE, JasperReports"
+      ]
+    },
+    {
+      "company": "Torneo InterCollege (Argentina) (Freelance)",
+      "position": "Android Developer",
+      "startDate": "2015-03",
+      "endDate": "2016-10",
+      "summary": "Freelance: comprehensive software development project. I developed an android application including customer's scopes and database development for a soccer tournament.",
+      "highlights": [
+        "Android, Java, SQLite, Java EE"
+      ]
+    },
+    {
+      "company": "Library and Drugstore (Argentina)",
+      "position": "FullStack Developer",
+      "startDate": "2013-11",
+      "endDate": "2016-10",
+      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development. I currently maintain their servers and improve their services.",
+      "highlights": [
+        "Java, SQLite, Java EE, Jasper Reports"
       ]
     }
   ],
