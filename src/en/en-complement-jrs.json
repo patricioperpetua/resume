@@ -8,6 +8,7 @@
       "position": "Backend Developer",
       "website": "http://www.intelydrone.com",
       "startDate": "2018-02",
+      "endDate": "2018-10",
       "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a farm tech company to track livestock. I currently maintain their servers and improve their services.",
       "highlights": [
         "CentOS, Docker, MongoDB, NodeJS, Swagger"
@@ -47,6 +48,15 @@
   "volunteer": [
   ],
   "education": [
+    {
+      "institution": "ITS Villada, Argentina",
+      "area": "Electronic Service Technician",
+      "studyType": "High School",
+      "startDate": "2006-01-01",
+      "endDate": "2011-12-01",
+      "gpa": "8.5/10",
+      "courses": []
+    }
   ],
   "awards": [],
   "publications": [],

@@ -8,6 +8,7 @@
       "position": "CoFounder",
       "website": "http://www.singletonsd.com",
       "startDate": "2014-01",
+      "endDate": "2019-10",
       "summary": "CoFounded a software company which provides IT services ranging from mobile application development to servers maintenance.",
       "highlights": [
         "More than 15 clients",
@@ -40,6 +41,7 @@
       "position": "Fullstack Developer",
       "website": "https://www.vamosalacarga.com.ar",
       "startDate": "2018-06",
+      "endDate": "2019-06",
       "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a shipping company to track deliveries on a website. I currently maintain their servers and improve their services.",
       "highlights": [
         "Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript"
@@ -50,6 +52,7 @@
       "position": "Founder",
       "website": "https://gitlab.com/fiscalizar",
       "startDate": "2015",
+      "endDate": "2019",
       "summary": "Freelance: Open source project to help the community. We developed an open source mobile application to help counting votes in Argentina's elections. The main aim of this project was to avoid corruption and help all parties keep track of their results.",
       "highlights": [
         "Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript"
