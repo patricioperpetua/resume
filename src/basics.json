@@ -65,6 +65,15 @@
       "endDate": "2017-12-01",
       "gpa": "13.7/20",
       "courses": []
+    },
+    {
+      "institution": "ITS Villada, Argentina",
+      "area": "Electronic Service Technician",
+      "studyType": "High School",
+      "startDate": "2006-01-01",
+      "endDate": "2011-12-01",
+      "gpa": "8.5/10",
+      "courses": []
     }
   ],
   "skills": [
