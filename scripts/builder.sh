@@ -29,7 +29,8 @@ if ! type "resume" &> /dev/null; then
     exit 1
 fi
 
-PROFILE_IMAGE="profile_reduced.jpg"
+# PROFILE_IMAGE="profile_reduced.jpg"
+PROFILE_IMAGE="blank.jpg"
 
 echo "loading configuration from file scripts/config.sh"
 #Setting global variables.
