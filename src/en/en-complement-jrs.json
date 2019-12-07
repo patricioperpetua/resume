@@ -4,18 +4,6 @@
   },
   "work": [
     {
-      "company": "Singleton Software Development",
-      "position": "CoFounder",
-      "website": "http://www.singletonsd.com",
-      "startDate": "2014-01",
-      "endDate": "2019-10",
-      "summary": "CoFounded a software company which provides IT services ranging from mobile application development to servers maintenance.",
-      "highlights": [
-        "More than 15 clients",
-        "Clients in Argentina, France and Italy"
-      ]
-    },
-    {
       "company": "Reply (Italy)",
       "position": "DevOps",
       "website": "https://www.reply.it",
@@ -23,7 +11,7 @@
       "endDate": "2019-08",
       "summary": "Contract: continuos integration project. Part of a team which setup Jenkins pipelines to run different types of tests and send results to Slack.",
       "highlights": [
-        "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, Sonarqube"
+        "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, SonarQube"
       ]
     },
     {
@@ -37,66 +25,19 @@
       ]
     },
     {
-      "company": "TLC (Argentina)",
-      "position": "Fullstack Developer",
-      "website": "https://www.vamosalacarga.com.ar",
-      "startDate": "2018-06",
-      "endDate": "2019-06",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a shipping company to track deliveries on a website. I currently maintain their servers and improve their services.",
+      "company": "Singleton Software Development",
+      "position": "CoFounder",
+      "website": "http://www.singletonsd.com",
+      "startDate": "2014-01",
+      "endDate": "2019-10",
+      "summary": "CoFounded a software company which provides IT services ranging from development of mobile application, web applications, backend services and database migrations to servers maintenance. The following list are clients to which I sold my service and I continue to provide maintenance over the years as either developer or consultant. Most of them are still in contact with me. All of these jobs were carried out by have to contact the costumer, make a proposal within a budget of time and money and make continues iteration over their requirements.",
       "highlights": [
-        "Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript"
-      ]
-    },
-    {
-      "company": "FiscalizAR (Argentina)",
-      "position": "Founder",
-      "website": "https://gitlab.com/fiscalizar",
-      "startDate": "2015",
-      "endDate": "2019",
-      "summary": "Freelance: Open source project to help the community. We developed an open source mobile application to help counting votes in Argentina's elections. The main aim of this project was to avoid corruption and help all parties keep track of their results.",
-      "highlights": [
-        "Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript"
-      ]
-    },
-    {
-      "company": "Intelydrone (Argentina)",
-      "position": "Backend Developer",
-      "website": "http://www.intelydrone.com",
-      "startDate": "2018-02",
-      "endDate": "2018-10",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a farm tech company to track livestock. I currently maintain their servers and improve their services.",
-      "highlights": [
-        "CentOS, Docker, MongoDB, NodeJS, Swagger"
-      ]
-    },
-    {
-      "company": "DilMedica (Argentina)",
-      "position": "FullStack Developer",
-      "startDate": "2016-06",
-      "endDate": "2018-10",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a prosthesis distributor company. I currently maintain their servers and improve their services.",
-      "highlights": [
-        "Java, SQLite, Java EE, JasperReports"
-      ]
-    },
-    {
-      "company": "Torneo InterCollege (Argentina) (Freelance)",
-      "position": "Android Developer",
-      "startDate": "2015-03",
-      "endDate": "2016-10",
-      "summary": "Freelance: comprehensive software development project. I developed an android application including customer's scopes and database development for a soccer tournament.",
-      "highlights": [
-        "Android, Java, SQLite, Java EE"
-      ]
-    },
-    {
-      "company": "Library and Drugstore (Argentina)",
-      "position": "FullStack Developer",
-      "startDate": "2013-11",
-      "endDate": "2016-10",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development. I currently maintain their servers and improve their services.",
-      "highlights": [
-        "Java, SQLite, Java EE, Jasper Reports"
+        "TLC (2018-2019): package delivery company. Position: Software Architecture, Cloud Engineer and Full Stack Developer. I developed a full project including customer's scopes, API services, frontend web application and database. I currently maintain their servers and improve their services. Technologies: Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript",
+        "Intelydrone (2018-2019): farm tech company which provides livestock tracking. Position: Software Architecture, Cloud Engineer and Backend Developer. Technologies: CentOS, Docker, MongoDB, NodeJS, Swagger.",
+        "DilMedica (2016-2018): supplier company of medical prosthesis. Position: Software Architecture and Java EE Developer. I  developed a Java Desktop Application to creates invoices, payslips and budgets. Technologies: Java, SQLite, Java EE, JasperReports",
+        "FiscalizAR (2015-2019): It's a personal project which I started to help counting votes in Argentina's election. To summarize, It is an android application and a web angular application to track counting votes of different political parties. Technologies: Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript",
+        "Torneo InterCollege (2015-2016): amateur soccer tournament. Position: Software Architecture and Android Developer. I developed  an android application to show soccer players information and statistics about the tournament and a Java EE Desktop Application to submit data. Technologies: Android, Java, SQLite, Java EE",
+        "Libraries and Drugstores (2013-2016): small to medium businesses that sells products to final costumers. I developed a software to track stock, sell products and report about selling and suppliers. It started as a one type project but over the time I managed to sell it to more costumers. Technologies: Java, SQLite, Java EE, Jasper Reports."
       ]
     }
   ],
