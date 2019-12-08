@@ -1,45 +1,7 @@
 {
-  "basics":{
-    "summary": "I am a hard-working, self-motivated and enthusiastic computer engineer looking for a challenging opportunity. I define my self as a proactive team member who has been part of different type of projects offering solutions ranging from DevOps, docker, CI/CD and backend services. I am willing to join your company since I can add extra value to your team by my international experience and broad knowledge."
+  "basics": {
   },
   "work": [
-    {
-      "company": "Reply (Italy)",
-      "position": "DevOps",
-      "website": "https://www.reply.it",
-      "startDate": "2019-07",
-      "endDate": "2019-08",
-      "summary": "Contract: continuos integration project. Part of a team which setup Jenkins pipelines to run different types of tests and send results to Slack.",
-      "highlights": [
-        "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, SonarQube"
-      ]
-    },
-    {
-      "company": "RavimoShark (France)",
-      "position": "FullStack Developer",
-      "website": "http://www.ravimoshark.com",
-      "startDate": "2017-06",
-      "summary": "Internship: operations application improvement project. Part of a team which developed microservices in NodeJS, two android applications and two angular applications. This position was initially part of a half a year internship but it evolved to a remote maintenance contract which is still ongoing.",
-      "highlights": [
-        "Android, Angular, Azure, Docker, Hibernate, Jasper Reports, Java, MSSQL, NodeJS, Swagger, Keycloak, Netflix Eureka"
-      ]
-    },
-    {
-      "company": "Singleton Software Development",
-      "position": "CoFounder",
-      "website": "http://www.singletonsd.com",
-      "startDate": "2014-01",
-      "endDate": "2019-10",
-      "summary": "CoFounded a software company which provides IT services ranging from development of mobile application, web applications, backend services and database migrations to servers maintenance. The following list are clients to which I sold my service and I continue to provide maintenance over the years as either developer or consultant. Most of them are still in contact with me. All of these jobs were carried out by have to contact the costumer, make a proposal within a budget of time and money and make continues iteration over their requirements.",
-      "highlights": [
-        "TLC (2018-2019): package delivery company. Position: Software Architecture, Cloud Engineer and Full Stack Developer. I developed a full project including customer's scopes, API services, frontend web application and database. I currently maintain their servers and improve their services. Technologies: Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript",
-        "Intelydrone (2018-2019): farm tech company which provides livestock tracking. Position: Software Architecture, Cloud Engineer and Backend Developer. Technologies: CentOS, Docker, MongoDB, NodeJS, Swagger.",
-        "DilMedica (2016-2018): supplier company of medical prosthesis. Position: Software Architecture and Java EE Developer. I  developed a Java Desktop Application to creates invoices, payslips and budgets. Technologies: Java, SQLite, Java EE, JasperReports",
-        "FiscalizAR (2015-2019): It's a personal project which I started to help counting votes in Argentina's election. To summarize, It is an android application and a web angular application to track counting votes of different political parties. Technologies: Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript",
-        "Torneo InterCollege (2015-2016): amateur soccer tournament. Position: Software Architecture and Android Developer. I developed  an android application to show soccer players information and statistics about the tournament and a Java EE Desktop Application to submit data. Technologies: Android, Java, SQLite, Java EE",
-        "Libraries and Drugstores (2013-2016): small to medium businesses that sells products to final costumers. I developed a software to track stock, sell products and report about selling and suppliers. It started as a one type project but over the time I managed to sell it to more costumers. Technologies: Java, SQLite, Java EE, Jasper Reports."
-      ]
-    }
   ],
   "volunteer": [
   ],
