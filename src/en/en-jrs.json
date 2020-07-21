@@ -4,11 +4,22 @@
   },
   "work": [
     {
+      "company": "Boiler Pizza (Australia)",
+      "position": "Android Developer",
+      "startDate": "2020-05",
+      "endDate": "2020-07",
+      "summary": "After COVID hit Australia, I went to a small town in Queensland to work on a farm. While working in there, 2 friends and I founded a Pizza restaurant in the caravan park we were living in. We sold almost 800 pizzas in 3 months, open 3 nights a week. I developed an android app to take orders and display statistics about the sales and the customer's preferences. Using this app we were able to reduce mistakes by 30% and improve cooking time by 25%. I learned about AI and try to set up a chatbot.",
+      "highlights": [
+        "Android, Java, Kotlin"
+      ]
+    },
+    {
       "company": "Sola IO (Australia)",
       "position": "Team Developer Leader",
       "website": "https://www.sola.io",
       "startDate": "2019-12",
-      "summary": "Company that sells and provide services about solar panels. I'm in charge of a team that give service to different types of software products used inside the company.",
+      "endDate": "2020-03",
+      "summary": "Sola.io is a start-up company that installs solar panels and sells energy generated from those solar panels. I started in this company to assess every single technology they were using to reduce the IT budget and then integrate differents platforms to increase productivity and reduce processing time between operations. 60% budget reduced by integrating open-source software, integrating different platforms, and developing APIs.",
       "highlights": [
         "Gitlab CI/CD, Docker, AWS, Angular, Android, Ionic, NodeJS, Java, Javascript"
       ]
@@ -19,7 +30,7 @@
       "website": "https://www.farmbot.com.au",
       "startDate": "2019-12",
       "endDate": "2019-12",
-      "summary": "(One month Contract) Company that produces and sells weather monitors to farms. I'm in charge of develop a service (database and API) to let third party companies access user's data using OAuth process.",
+      "summary": "(One month Contract) Company that produces and sells weather monitors for farms. I was hired to integrate two different companies' data by developing and configuring an authentification server. I successfully set up an OAuth flow between them; from finding requirements, generating documentation, to finally developing 2 APIs to interact with an Amazon Cognito Server.",
       "highlights": [
         "Docker, AWS, NodeJS, NestJS, Javascript, TypeORM, Swagger"
       ]
