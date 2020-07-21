@@ -30,7 +30,7 @@
       "website": "https://www.farmbot.com.au",
       "startDate": "2019-12",
       "endDate": "2019-12",
-      "summary": "(One month Contract) Company that produces and sells weather monitors to farms. I was hired to integrate two different companies' data by developing and configuring an authentification server. I successfully set up an OAuth flow between them by starting with finding requirements, generating documentation, and finally developing 2 APIs to interact with an Amazon Cognito Server.",
+      "summary": "(One month Contract) Company that produces and sells weather monitors for farms. I was hired to integrate two different companies' data by developing and configuring an authentification server. I successfully set up an OAuth flow between them; from finding requirements, generating documentation, to finally developing 2 APIs to interact with an Amazon Cognito Server.",
       "highlights": [
         "Docker, AWS, NodeJS, NestJS, Javascript, TypeORM, Swagger"
       ]
