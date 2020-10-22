@@ -1,8 +1,18 @@
 {
   "basics":{
-    "summary": "I am a hard-working, self-motivated and enthusiastic computer engineer looking for a challenging opportunity. I define my self as a proactive team member who has been part of different type of projects offering solutions ranging from DevOps, Docker, CI/CD and backend services. I focus on using the latest tools and technologies in order to produce better code quality and to reduce time every-day-tasks. I am willing to join your company since I can add extra value to your team by my international experience and broad knowledge. "
+    "summary": "I am a hard-working, self-motivated and enthusiastic computer engineer looking for a challenging opportunity. I define my self as a proactive self-managed team member who has been part of different type of projects offering solutions all around the world. I focus on using the latest tools and technologies in order to produce better code quality and to reduce time in every-day-tasks. I am a valuable asset to be joined to any company due to my international experience, broad knowledge and fast learning. "
   },
   "work": [
+    {
+      "company": "Five Faces (Australia)",
+      "position": "Android Developer - Java Spring Developer",
+      "startDate": "2020-09",
+      "endDate": "2020-10",
+      "summary": "Improved Native Android App performance from 350MB ram to 110MB. Refactor bussiness rules and application of MVC pattern. Fixed 2 Fullstack Java Spring applications involving JQuery and Amazon S3. Developed a Spring Boot API and a React App.",
+      "highlights": [
+        "Android, Java, Spring, Spring Boot, JQuery, React"
+      ]
+    },
     {
       "company": "Boiler Pizza (Australia)",
       "position": "Android Developer",
