@@ -84,17 +84,20 @@
         "SQLite",
         "SQL Server",
         "MySQL",
-        "MongoDB"
+        "MongoDB",
+        "Azure DB"
       ]
     },
     {
       "name": "Programming Languages",
       "level": "",
       "keywords": [
+        "C#",
         "Java",
         "Java Android",
         "JavaScript",
-        "Linux Bash",
+        "Bash",
+        "Powershell",
         "Typescript"
       ]
     },
@@ -103,11 +106,13 @@
       "level": "",
       "keywords": [
         "Angular",
+        "React",
         "Hibernate",
         "Maven",
         "NodeJS",
         "Swagger",
-        "Spring"
+        "Spring",
+        "DotNet"
       ]
     },
     {
@@ -115,6 +120,8 @@
       "level": "",
       "keywords":[
         "Amazon AWS",
+        "Azure",
+        "Azure DevOps",
         "Apache",
         "Docker",
         "Git",
