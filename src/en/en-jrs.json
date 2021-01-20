@@ -1,8 +1,18 @@
 {
   "basics":{
-    "summary": "I am a hard-working, self-motivated and enthusiastic computer engineer looking for a challenging opportunity. I define my self as a proactive self-managed team member who has been part of different type of projects offering solutions all around the world. I focus on using the latest tools and technologies in order to produce better code quality and to reduce time in every-day-tasks. I am a valuable asset to be joined to any company due to my international experience, broad knowledge and fast learning. "
+    "summary": "I am a hard-working, self-motivated, and enthusiastic computer engineer looking for my next challenging opportunity. I define myself as a proactive self-managed team member who has been part of different types of projects offering solutions all around the world. I focus on using the latest tools and technologies in order to produce better code quality and to reduce time every-day-tasks. I am a valuable asset to be joined to any company due to my international experience, broad knowledge, and fast learning."
   },
   "work": [
+    {
+      "company": "RPS Group (Australia)",
+      "position": "Full Stack / DevOps - Engineer",
+      "website": "https://www.rpsgroup.com.au",
+      "startDate": "2020-12",
+      "summary": "Fix and maintenance of a monolithic web app written in React and DotNet. Typical tasks are: develop new features that involve frontend, backend, and sometimes database (changes and migration scripts). I also set up Azure DevOps pipelines to create a continuous integration / continuous deployment environment for the team. Organize app services in groups, set up firewall policies, create new services and interconnect them.",
+      "highlights": [
+        "Azure DevOps, Azure, CI/CD, Azure SQL, SQL Server, DotNet, Javascript, Typescript, React"
+      ]
+    },
     {
       "company": "Five Faces (Australia)",
       "position": "Android Developer - Java Spring Developer",
