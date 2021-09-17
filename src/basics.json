@@ -8,11 +8,11 @@
     "phone": "+61480190003",
     "website": "https://patricioperpetua.com.au",
     "location": {
-      "address": "9 Zillah Street, Stones Corner",
-      "postalCode": "4120",
-      "city": "Brisbane",
+      "address": "28 Isla Avenue, Glenroy",
+      "postalCode": "3046",
+      "city": "Melbourne",
       "countryCode": "Australia (AU)",
-      "region": "QLD"
+      "region": "Victoria"
     },
     "profiles": [
       {
@@ -29,28 +29,13 @@
         "network": "Github",
         "username": "SingletonSD",
         "url": "https://github.com/singletonsd"
-      },
-      {
-        "network": "Twitter",
-        "username": "@patoperpetua",
-        "url": "https://twitter.com/patoperpetua"
-      },
-      {
-        "network": "Facebook",
-        "username": "patoperpetua",
-        "url": "https://www.facebook.com/patoperpetua"
-      },
-      {
-        "network": "Instagram",
-        "username": "@patoperpetua",
-        "url": "https://www.instagram.com/patoperpetua"
       }
     ]
   },
   "education": [
     {
       "institution": "Universidad Nacional de Cordoba, Argentina",
-      "area": "Computer Engineer",
+      "area": "Software Engineer",
       "studyType": "College",
       "startDate": "2012-01-01",
       "endDate": "2018-12-20",
@@ -59,7 +44,7 @@
     },
     {
       "institution": "Ensimag Grenoble INP, France",
-      "area": "Computer Engineer",
+      "area": "Software Engineer",
       "studyType": "College (One year Exchange)",
       "startDate": "2017-01-01",
       "endDate": "2017-12-01",
@@ -68,7 +53,7 @@
     },
     {
       "institution": "ITS Villada, Argentina",
-      "area": "Electronic Service Technician",
+      "area": "Technician Specialisation Electronics",
       "studyType": "High School",
       "startDate": "2006-01-01",
       "endDate": "2011-12-01",
@@ -78,64 +63,100 @@
   ],
   "skills": [
     {
-      "name": "Database Engines",
+      "name": "Web",
       "level": "",
       "keywords": [
-        "SQLite",
-        "SQL Server",
-        "MySQL",
-        "MongoDB",
-        "Azure DB"
+        "HTML, CCS, JS (5)",
+        "Angular (4)",
+        "React (1)",
+        "JQuery (4)",
+        "AntDesign (1)",
+        "Bootstrap (4)"
       ]
     },
     {
       "name": "Programming Languages",
       "level": "",
       "keywords": [
-        "C#",
-        "Java",
-        "Java Android",
-        "JavaScript",
-        "Bash",
-        "Powershell",
-        "Typescript"
+        "C# (1)",
+        "Java (7)",
+        "Java Android (5)",
+        "JavaScript, Typescript (4)"
       ]
     },
     {
-      "name": "Frameworks",
-      "level": "",
-      "keywords": [
-        "Angular",
-        "React",
-        "Hibernate",
-        "Maven",
-        "NodeJS",
-        "Swagger",
-        "Spring",
-        "DotNet"
-      ]
-    },
-    {
-      "name": "Tools",
+      "name": "Cloud",
       "level": "",
       "keywords":[
-        "Amazon AWS",
-        "Azure",
-        "Azure DevOps",
-        "Apache",
-        "Docker",
-        "Git",
-        "Gitlab CI/CD",
-        "Jenkins",
-        "Jasper Reports",
-        "Liquibase"
+        "Amazon AWS (Lambda, S3, Route 53, CDN, EC2) (2)",
+        "Azure (Blob Storate, App Services, Active Directory, Insights, SQL) (4)",
+        "Azure DevOps (1)"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "level": "",
+      "keywords": [
+        "Bash (3)",
+        "Powershell (1)",
+        "Kotlin",
+        "Python"
+      ]
+    },
+    {
+      "name": "Database Engines",
+      "level": "",
+      "keywords": [
+        "SQLite (7)",
+        "SQL Server, Azure DB (4)",
+        "MySQL (4)",
+        "MongoDB (1)"
+      ]
+    },
+    {
+      "name": "Javascript/Typescript",
+      "level": "",
+      "keywords":[
+        "NodeJS (4)",
+        "NestJS (2)"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords":[
+        "Maven (6)",
+        "Jasper Reports (5)",
+        "Liquibase (5)",
+        "Hibernate, JPA (6)",
+        "Spring, Spring Boot (4)",
+        "JSP (2)"
+      ]
+    },
+    {
+      "name": "C# Tools",
+      "level": "",
+      "keywords":[
+        ".Net, .Net Core",
+        "LINQ",
+        "CQRS"
+      ]
+    },
+    {
+      "name": "CI/CD Tools",
+      "level": "",
+      "keywords":[
+        "Gitlab CI/CD (4)",
+        "Docker (4)",
+        "Jenkins (1)",
+        "Azure Pipelines (1)"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Advanced B2 (IELTS 6.0 - 2016)"
+      "fluency": "C1 Superior (IELTS 8.0 - 2021)"
     },
     {
       "language": "French",
@@ -147,7 +168,7 @@
     },
     {
       "language": "Spanish",
-      "fluency": "Native Speaker"
+      "fluency": "Native"
     }
   ],
   "interests": [],
