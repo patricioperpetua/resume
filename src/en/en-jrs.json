@@ -1,48 +1,38 @@
 {
   "basics":{
-    "summary": "I am a hard-working, self-motivated, and enthusiastic computer engineer looking for my next challenging opportunity. I define myself as a proactive self-managed team member who has been part of different types of projects offering solutions all around the world. I focus on using the latest tools and technologies in order to produce better code quality and to reduce time every-day-tasks. I am a valuable asset to be joined to any company due to my international experience, broad knowledge, and fast learning."
+    "summary": "I am a hard-working, self-motivated, and enthusiastic Software Engineer looking for my next challenging opportunity. I define myself as a proactive self-managed team member who has been working syde by syde with SMEs to develop solutions. My key signature strenghts are Perspective, Creativity, Kindness and Humor which allow me to have a better understanding of a problem and therefore resolve it with some out-of-the-box efortless and timeless alternatives. I am a valuable asset to be joined to any company due to my broad knowledge, fast learning, and multicultural experiences."
   },
   "work": [
     {
       "company": "RPS Group (Australia)",
-      "position": "Full Stack / DevOps - Engineer",
+      "position": "Full-Stack Developer (React - .Net)",
       "website": "https://www.rpsgroup.com.au",
       "startDate": "2020-12",
-      "summary": "Fix and maintenance of a monolithic web app written in React and DotNet. Typical tasks are: develop new features that involve frontend, backend, and sometimes database (changes and migration scripts). I also set up Azure DevOps pipelines to create a continuous integration / continuous deployment environment for the team. Organize app services in groups, set up firewall policies, create new services and interconnect them.",
+      "summary": "Here I work with a team of 5 people to develop a project management software for some goverment agencies. Development of web applications using React Typescript, C# .Net and SQL Server. Typical tasks are: discuss new features with SMEs and then develop frontend, backend, and database scripts.",
       "highlights": [
-        "Azure DevOps, Azure, CI/CD, Azure SQL, SQL Server, DotNet, Javascript, Typescript, React"
+        ".Net, .Net Core, Javascript, Typescript, React, Antd, Azure, Azure DevOps, SQL Server, Azure Blob Storage, Azure App Services, Azure Pipelines"
       ]
     },
     {
-      "company": "Five Faces (Australia)",
-      "position": "Android Developer - Java Spring Developer",
-      "website": "https://www.fivefaces.com.au",
+      "company": "Robert Half (Australia)",
+      "position": "Android/Full-Stack (Java/JQuery) Developer",
+      "website": "https://www.roberthalf.com.au",
       "startDate": "2020-09",
       "endDate": "2020-10",
-      "summary": "Improved Native Android App performance from 350MB ram to 110MB. Refactor bussiness rules and application of MVC pattern. Fixed 2 Fullstack Java Spring applications involving JQuery and Amazon S3. Developed a Spring Boot API and a React App.",
+      "summary": "Improved Native Android App performance from 350MB ram to 110MB. Refactor bussiness rules and application of MVC pattern. Fixed 2 Fullstack Java Spring applications involving JQuery and Amazon S3. Developed a Spring Boot API and a React App. Developed a NodeJS API and a React APP to get meetings using Microsoft Graph API and display them on Smart TVs.",
       "highlights": [
-        "Android, Java, Spring, Spring Boot, JQuery, React"
-      ]
-    },
-    {
-      "company": "Boiler Pizza (Australia)",
-      "position": "Android Developer",
-      "startDate": "2020-05",
-      "endDate": "2020-07",
-      "summary": "After COVID hit Australia, I went to a small town in Queensland to work on a farm. While working in there, 2 friends and I founded a Pizza restaurant in the caravan park we were living in. We sold almost 800 pizzas in 3 months, open 3 nights a week. I developed an android app to take orders and display statistics about the sales and the customer's preferences. Using this app we were able to reduce mistakes by 30% and improve cooking time by 25%. I learned about AI and try to set up a chatbot.",
-      "highlights": [
-        "Android, Java, Kotlin"
+        "Javascript, Typescript, React, JQuery, Bootstrap, NodeJS, Android, Java, Spring, Spring Boot, MySQL, AWS, AWS S3, AWS Lambda, AWS Route 53, Swagger"
       ]
     },
     {
       "company": "Sola IO (Australia)",
-      "position": "Team Developer Leader",
+      "position": "Technical Leader",
       "website": "https://www.sola.io",
       "startDate": "2019-12",
       "endDate": "2020-03",
-      "summary": "Sola.io is a start-up company that installs solar panels and sells energy generated from those solar panels. I started in this company to assess every single technology they were using to reduce the IT budget and then integrate differents platforms to increase productivity and reduce processing time between operations. 60% budget reduced by integrating open-source software, integrating different platforms, and developing APIs.",
+      "summary": "Sola.io is installs solar panels and sells the energy generated. I started in this company to assess every single technology they were using to reduce the IT budget and then integrate differents platforms to increase productivity and reduce processing time between operations. 60% budget reduced by integrating open-source software, integrating different platforms (such as SOHO), and developing APIs.",
       "highlights": [
-        "Gitlab CI/CD, Docker, AWS, Angular, Android, Ionic, NodeJS, Java, Javascript"
+        "Javascript, Typescript, NodeJS, Angular, Docker, AWS, ZOHO"
       ]
     },
     {
@@ -51,9 +41,9 @@
       "website": "https://www.farmbot.com.au",
       "startDate": "2019-12",
       "endDate": "2019-12",
-      "summary": "(One month Contract) Company that produces and sells weather monitors for farms. I was hired to integrate two different companies' data by developing and configuring an authentification server. I successfully set up an OAuth flow between them; from finding requirements, generating documentation, to finally developing 2 APIs to interact with an Amazon Cognito Server.",
+      "summary": "Company that produces and sells weather monitors for farms. Integrate two different companies' data by developing and configuring an authentification server. I successfully set up an OAuth flow; from finding requirements, generating documentation, to finally developing 2 APIs to interact with an Amazon Cognito Server.",
       "highlights": [
-        "Docker, AWS, NodeJS, NestJS, Javascript, TypeORM, Swagger"
+        "Javascript, Typescript, NodeJS, NestJS, Docker, AWS, AWS Lambda, AWS Cognito, TypeORM, Swagger"
       ]
     },
     {
@@ -62,76 +52,36 @@
       "website": "https://www.reply.it",
       "startDate": "2019-07",
       "endDate": "2019-08",
-      "summary": "Software consultant company. I was part of a team in charge of a energy company applications and systems. I setup Jenkins pipelines to run different types of tests using ci/cd tools and send reports over Slack to  different working teams.",
+      "summary": "Setup Jenkins pipelines to run different types of tests using ci/cd tools and send reports over Slack to different working teams.",
       "highlights": [
-        "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, SonarQube"
+        "Jenkins, Docker, Load Impact, Puppeteer, SiteSpeed, SonarQube, CI/CD"
       ]
     },
     {
       "company": "RavimoShark (France)",
-      "position": "Software Architecture, Cloud Engineer and Full Stack Developer",
+      "position": "Full-Stack Developer Software Architecture and Cloud Engineer",
       "website": "http://www.ravimoshark.com",
       "startDate": "2017-06",
-      "summary": "Company which sells and rents dishwashers to restaurants. I started as intern to develop an Android native application but over the time I became the person in charge of the complete enterprise systems. I have been developing Angular and Android applications, improving backend services and setting up different environments in Azure Cloud. At the beginning, I was working in the office but after the first 6 months I started working remotely from Argentina and now from Australia.",
+      "endDate": "2019-11",
+      "summary": "I am a Software Engineer with more that 7 years of experience. I define myself as a proactive self-managed team member who has been working syde by syde with SMEs to develop solutions and to communicate complex technical requirements to non-technical stakeholders. My key signature strengths are Perspective, Creativity, Kindness and Humor which allow me to have a better understanding of a problem and therefore resolve it with some out-of-the-box effortless and timeless alternatives.",
       "highlights": [
-        "Android, Angular, Azure, Docker, Hibernate, Jasper Reports, Java, MSSQL, NodeJS, Swagger, Keycloak, Netflix Eureka"
+        "Java, Spring, Spring Boot, Hibernate, Jasper Reports, Android, Javascript, Typescript, NodeJS, Angular, Azure, Azure App Services, Azure Active Directory, Azure Blob Storage, Docker, MSSQL, Swagger, Keycloak"
       ]
     },
     {
-      "company": "Singleton Software Development",
-      "position": "CoFounder",
+      "company": "Singleton Software Development (Freelance Argentina)",
+      "position": "Full-Stack Developer",
       "website": "http://www.singletonsd.com",
       "startDate": "2014-01",
       "endDate": "2019-10",
-      "summary": "CoFounded a software company which provides IT services ranging from development of mobile application, web applications, backend services and database migrations to servers maintenance. The following list are clients to which I sold my service and I continue to provide maintenance over the years as either developer or consultant. Most of them are still in contact with me. All of these jobs were carried out by have to contact the costumer, make a proposal within a budget of time and money and make continues iteration over their requirements.",
+      "summary": "Start providing sofware development and consultancy ranging from development of mobile application, web applications, backend services and database migrations to servers maintenance. The following list are clients to which I sold my services and I continue to provide maintenance over the years as either developer or consultant. Most of them are still in contact with me. All of these jobs were carried out by having to contact the costumer, make a proposal within a budget of time and money and make continues iteration over their requirements.",
       "highlights": [
-        "TLC (2018-2019): package delivery company. Position: Software Architecture, Cloud Engineer and Full Stack Developer. I developed a full project including customer's scopes, API services, frontend web application and database. I currently maintain their servers and improve their services. Technologies: Angular, CentOS, Docker, MySQL, NodeJS, Swagger, TypeScript",
-        "Intelydrone (2018-2019): farm tech company which provides livestock tracking. Position: Software Architecture, Cloud Engineer and Backend Developer. Technologies: CentOS, Docker, MongoDB, NodeJS, Swagger.",
-        "DilMedica (2016-2018): supplier company of medical prosthesis. Position: Software Architecture and Java EE Developer. I  developed a Java Desktop Application to creates invoices, payslips and budgets. Technologies: Java, SQLite, Java EE, JasperReports",
-        "FiscalizAR (2015-2019): It's a personal project which I started to help counting votes in Argentina's election. To summarize, It is an android application and a web angular application to track counting votes of different political parties. Technologies: Android, Angular, Docker, MySQL, NodeJS, SQLite, Swagger, TypeScript",
-        "Torneo InterCollege (2015-2016): amateur soccer tournament. Position: Software Architecture and Android Developer. I developed  an android application to show soccer players information and statistics about the tournament and a Java EE Desktop Application to submit data. Technologies: Android, Java, SQLite, Java EE",
-        "Libraries and Drugstores (2013-2016): small to medium businesses that sells products to final costumers. I developed a software to track stock, sell products and report about selling and suppliers. It started as a one type project but over the time I managed to sell it to more costumers. Technologies: Java, SQLite, Java EE, Jasper Reports."
-      ]
-    },
-    {
-      "company": "Intelydrone (Argentina)",
-      "position": "Backend Developer",
-      "website": "http://www.intelydrone.com",
-      "startDate": "2018-02",
-      "endDate": "2018-10",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a farm tech company to track livestock. I currently maintain their servers and improve their services.",
-      "highlights": [
-        "CentOS, Docker, MongoDB, NodeJS, Swagger"
-      ]
-    },
-    {
-      "company": "DilMedica (Argentina)",
-      "position": "FullStack Developer",
-      "startDate": "2016-06",
-      "endDate": "2018-10",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development for a prosthesis distributor company. I currently maintain their servers and improve their services.",
-      "highlights": [
-        "Java, SQLite, Java EE, JasperReports"
-      ]
-    },
-    {
-      "company": "Torneo InterCollege (Argentina) (Freelance)",
-      "position": "Android Developer",
-      "startDate": "2015-03",
-      "endDate": "2016-10",
-      "summary": "Freelance: comprehensive software development project. I developed an android application including customer's scopes and database development for a soccer tournament.",
-      "highlights": [
-        "Android, Java, SQLite, Java EE"
-      ]
-    },
-    {
-      "company": "Library and Drugstore (Argentina)",
-      "position": "FullStack Developer",
-      "startDate": "2013-11",
-      "endDate": "2016-10",
-      "summary": "Freelance: comprehensive software development project. I developed a full project including customer's scopes and database development. I currently maintain their servers and improve their services.",
-      "highlights": [
-        "Java, SQLite, Java EE, Jasper Reports"
+        "TLC (2018-2019): package delivery company. Position: Full-Stack Developer, Software Architecture and Cloud Engineer. I developed a full project including customer's scopes, API services, frontend web application and database. I currently maintain their servers and improve their services. Technologies: Javascript, Typescript, NodeJS, Angular, Docker, MySQL, Swagger, AWS. ",
+        "Intelydrone (2018-2019): farm tech company which provides livestock tracking. Position: Backend Developer, Software Architecture and Cloud Engineer. Technologies: Javascript, Typescript, NodeJS, CentOS, Docker, MongoDB, Swagger.",
+        "DilMedica (2016-2018): supplier company of medical prosthesis. Position: Java EE Developer and Software Architecture. I  developed a Java Desktop Application to creates invoices, payslips and budgets. Technologies: Java, SQLite, Java EE, Hibernate, JasperReports",
+        "FiscalizAR (2015-2019): It's a personal project which I started to help counting votes in Argentina's election. To summarize, It is an android application, some APIs and a web angular application to track counting votes of different political parties. Technologies: Javascript, Typescript, Angular, NodeJS, Android, Docker, MySQL, SQLite, Swagger, AWS Lambda, AWS S3",
+        "Torneo InterCollege (2015-2016): amateur soccer tournament. Position: Java Android Developer and Software Architecture. I developed  an android application to show soccer players information and statistics about the tournament and a Java EE Desktop Application to submit data. Technologies: Android, Java, JAVA EE, SQLite, MySQL, Hibernate, AWS S3",
+        "Libraries and Drugstores (2013-2016): small to medium businesses that sells products to final costumers. I developed a software to track stock, sell products and report about selling and suppliers. It started as a one client project but over the time I managed to sell it to almost 15 costumers. Technologies: Java, Java EE, Jasper Reports, SQLite, Hibernate."
       ]
     }
   ],
@@ -147,12 +97,5 @@
   ],
   "interests": [
   ],
-  "references": [
-    {
-      "name": "Josseph Assouline  joseph.assouline1@gmail.com"
-    },
-    {
-      "name": "Giuseppe Gambino  giu.gambino@reply.it"
-    }
-  ]
+  "references": []
 }
