@@ -41,6 +41,7 @@ build-docker:
   only:
     changes:
       - docker/**/*
+  allow_failure: true
 
 pages:
   stage: pages
