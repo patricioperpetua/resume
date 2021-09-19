@@ -23,11 +23,25 @@ build:
     - rm -rf builds/
     - ./scripts/builder.sh
   artifacts:
+    name: "$CI_PROJECT_NAME-${CI_COMMIT_REF_NAME}-built"
     paths:
       - builds
   cache:
     paths:
       - builds
+
+build:
+  image: docker:latest
+  stage: build
+  before_script:
+    - echo "${REGISTRY_GITLAB_PASS}" | docker login registry.gitlab.com -u ${REGISTRY_GITLAB_USER} --password-stdin
+
+  script:
+    - docker build -t registry.gitlab.com/$CI_PROJECT_PATH/builder docker
+    - docker push registry.gitlab.com/$CI_PROJECT_PATH/builder
+  only:
+    changes:
+      - docker/**/*
 
 pages:
   stage: pages
