@@ -31,7 +31,9 @@ build:
       - builds
 
 build-docker:
-  image: docker:19.03.12
+  image: docker:latest
+  services:
+    - docker:dind
   stage: build
   before_script:
     - echo "${REGISTRY_GITLAB_PASS}" | docker login registry.gitlab.com -u ${REGISTRY_GITLAB_USER} --password-stdin
@@ -42,6 +44,7 @@ build-docker:
     changes:
       - docker/**/*
   allow_failure: true
+  when: manual
 
 pages:
   stage: pages
