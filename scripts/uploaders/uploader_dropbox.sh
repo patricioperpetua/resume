@@ -14,7 +14,7 @@ set -o pipefail
 # Set magic variables for current file & dir
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
-__base="$(basename ${__file} .sh)"
+__base="$(basename "${__file}" .sh)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
 #Setting global variables.
@@ -32,9 +32,9 @@ CV_FOLDER_PATH_LATEST="${CV_FOLDER_NAME}/latest"
 for entry in "src"/*
 do
 	lang="${entry:4}"
-	if [ -f src/${lang}/${lang}-jrs.json ]; then
+	if [ -f "src/${lang}/${lang}-jrs.json" ]; then
 		echo "found language ${lang}"
-		if [ -f ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ]; then
+		if [ -f "${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf" ]; then
 			echo "${CV_OUTPUT_FILE_NAME}-${lang}.pdf"
 			curl -X POST https://content.dropboxapi.com/2/files/upload \
 				--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
@@ -74,7 +74,7 @@ do
 					--data-binary @"${CV_FOLDER_PATH_LATEST}/${CV_OUTPUT_FILE_NAME}-${lang}.json"
 			fi
 
-			if [ -f ${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf ]; then
+			if [ -f "${CV_FOLDER_PATH_PDF}/${CV_OUTPUT_FILE_NAME}-${lang}.pdf" ]; then
 				echo "${CV_OUTPUT_FILE_NAME}-${lang}-complement.pdf"
 				curl -X POST https://content.dropboxapi.com/2/files/upload \
 					--header "Authorization: Bearer ${DROPBOX_ACCESS_TOKEN}" \
