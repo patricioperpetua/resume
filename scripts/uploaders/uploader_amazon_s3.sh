@@ -14,14 +14,27 @@ set -o pipefail
 # Set magic variables for current file & dir
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
-__base="$(basename ${__file} .sh)"
+__base="$(basename "${__file}" .sh)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
-#Setting global variables.
+# Setting global variables.
 source scripts/config.sh
 
-aws s3 cp --acl public-read ${CV_FOLDER_PATH} s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/${VERSION} --recursive
+function publish_to_aws {
+	BUCKET_ADDRESS="s3://${1}/${AMAZON_S3_FOLDER}/${VERSION}"
+	echo "Working in ${BUCKET_ADDRESS}"
+	aws s3 cp --acl public-read "${CV_FOLDER_PATH}" "${BUCKET_ADDRESS}" --recursive
 
-if [ "${CURRENT_BRANCH}" == "master" ]; then
-	aws s3 cp --acl public-read ${CV_FOLDER_NAME}/latest s3://${AMAZON_S3_BUCKET}/${AMAZON_S3_FOLDER}/latest --recursive
+	if [ "${CURRENT_BRANCH}" == "master" ]; then
+		aws s3 cp --acl public-read "${CV_FOLDER_NAME}/latest" "${BUCKET_ADDRESS}" --recursive
+	fi
+}
+
+# Check if AMAZON_S3_BUCKET is array or not
+if [[ "$(declare -p AMAZON_S3_BUCKET)" =~ "declare -a" ]]; then
+    for BUCKET in "${AMAZON_S3_BUCKET[@]}"; do
+		publish_to_aws "${BUCKET}"
+	done
+else
+    publish_to_aws "${AMAZON_S3_BUCKET}"
 fi
