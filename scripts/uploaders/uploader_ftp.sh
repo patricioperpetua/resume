@@ -14,14 +14,14 @@ set -o pipefail
 # Set magic variables for current file & dir
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 __file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
-__base="$(basename ${__file} .sh)"
+__base="$(basename "${__file}" .sh)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
 #Setting global variables.
 source scripts/config.sh
 
 #Changing to builds folder.
-cd ${CV_FOLDER_PATH}
+cd "${CV_FOLDER_PATH}"
 
 lftp<<END_SCRIPT
 set ftps:initial-prot "";

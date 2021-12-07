@@ -41,5 +41,5 @@ else
 fi
 DROPBOX_FOLDER=resume
 
-AMAZON_S3_BUCKET="patricioperpetua.com"
+AMAZON_S3_BUCKET=("patricioperpetua.com" "patricioperpetua.com.au")
 AMAZON_S3_FOLDER="assets/resume"
