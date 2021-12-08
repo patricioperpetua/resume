@@ -86,6 +86,7 @@ amazon_s3:
     - pip install awscli # Install the SDK
   script:
     - ./scripts/uploaders/uploader_amazon_s3.sh
+    - ./scripts/uploaders/uploader_amazon_cloudfront.sh
   only:
     variables:
       - $CI_PROJECT_PATH == "patricioperpetua/resume"

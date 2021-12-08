@@ -43,3 +43,5 @@ DROPBOX_FOLDER=resume
 
 AMAZON_S3_BUCKET=("patricioperpetua.com" "patricioperpetua.com.au")
 AMAZON_S3_FOLDER="assets/resume"
+
+AMAZON_CLOUDFRONT_DISTRIBUTIONS_ID=("E3P5OIJNWRXIB6" "E3HV2JFTYLUMRV")
