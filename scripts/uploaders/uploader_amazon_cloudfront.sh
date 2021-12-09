@@ -20,21 +20,26 @@ __root="$(cd "$(dirname "${__dir}")" && pwd)"
 # Setting global variables.
 source "${__root}/config.sh"
 
-function publish_to_aws {
-	BUCKET_ADDRESS="s3://${1}/${AMAZON_S3_FOLDER}/${VERSION}"
-	echo "Working in ${BUCKET_ADDRESS}"
-	aws s3 cp --acl public-read "${CV_FOLDER_PATH}" "${BUCKET_ADDRESS}" --recursive
+function invalite_cloudfront_cache {
+	DISTRIBUTION_ID="${1}"
+	echo "Invalidating distribution with ID ${DISTRIBUTION_ID}"
+
+    DISTRIBUTION_PATHS="${CURRENT_BRANCH}"
 
 	if [ "${CURRENT_BRANCH}" == "master" ]; then
-		aws s3 cp --acl public-read "${CV_FOLDER_NAME}/latest" "${BUCKET_ADDRESS}" --recursive
+		DISTRIBUTION_PATHS="latest"
 	fi
+
+    aws cloudfront create-invalidation --no-cli-pager \
+        --distribution-id "${1}" \
+        --paths "/${AMAZON_S3_FOLDER}/${DISTRIBUTION_PATHS}/*"
 }
 
-# Check if AMAZON_S3_BUCKET is array or not
-if [[ "$(declare -p AMAZON_S3_BUCKET)" =~ "declare -a" ]]; then
-    for BUCKET in "${AMAZON_S3_BUCKET[@]}"; do
-		publish_to_aws "${BUCKET}"
+# Check if AMAZON_CLOUDFRONT_DISTRIBUTIONS_ID is array or not
+if [[ "$(declare -p AMAZON_CLOUDFRONT_DISTRIBUTIONS_ID)" =~ "declare -a" ]]; then
+    for DISTRIBUTION_ID in "${AMAZON_CLOUDFRONT_DISTRIBUTIONS_ID[@]}"; do
+		invalite_cloudfront_cache "${DISTRIBUTION_ID}"
 	done
 else
-    publish_to_aws "${AMAZON_S3_BUCKET}"
+    invalite_cloudfront_cache "${AMAZON_CLOUDFRONT_DISTRIBUTIONS_ID}"
 fi

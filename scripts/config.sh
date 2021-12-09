@@ -1,8 +1,25 @@
 #!/usr/bin/env bash
 
+# Web Page of BASH best practices https://kvz.io/blog/2013/11/21/bash-best-practices/
+#Exit when a command fails.
+set -o errexit
+#Exit when script tries to use undeclared variables.
+set -o nounset
+#The exit status of the last command that threw a non-zero exit code is returned.
+set -o pipefail
+
+#Trace what gets executed. Useful for debugging.
+#set -o xtrace
+
+# Set magic variables for current file & dir
+__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+__file="${__dir}/$(basename "${BASH_SOURCE[0]}")"
+__base="$(basename "${__file}" .sh)"
+__root="$(cd "$(dirname "${__dir}")" && pwd)"
+
 CV_NAME="Patricio_Perpetua"
 
-VERSION=`cat VERSION`
+VERSION=$(cat "${__root}/VERSION")
 
 if [ -z ${CURRENT_BRANCH+x} ]; then
     CURRENT_BRANCH="$(git branch | grep \* | cut -d ' ' -f2)"
@@ -43,3 +60,5 @@ DROPBOX_FOLDER=resume
 
 AMAZON_S3_BUCKET=("patricioperpetua.com" "patricioperpetua.com.au")
 AMAZON_S3_FOLDER="assets/resume"
+
+AMAZON_CLOUDFRONT_DISTRIBUTIONS_ID=("E3P5OIJNWRXIB6" "E3HV2JFTYLUMRV")
