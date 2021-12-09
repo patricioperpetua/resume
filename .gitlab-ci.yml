@@ -75,15 +75,13 @@ dropbox:
       - $CI_PROJECT_PATH == "patricioperpetua/resume"
 
 amazon_s3:
-  image: python:3.7.3-alpine3.10
+  stage: deploy
+  image: amazon/aws-cli:latest #If this value is change, please update the Readme file.
+  entrypoint: ["/bin/bash"]
   variables:
     AWS_DEFAULT_REGION: eu-west-3 # The region of S3 bucket
     AWS_ACCESS_KEY_ID: ${AMAZON_S3_RESUME_WR_ACCESS_KEY_ID}
     AWS_SECRET_ACCESS_KEY: ${AMAZON_S3_RESUME_WR_SECRET_ACCESS_KEY}
-  stage: deploy
-  before_script:
-    - apk add --no-cache bash
-    - pip install awscli # Install the SDK
   script:
     - ./scripts/uploaders/uploader_amazon_s3.sh
     - ./scripts/uploaders/uploader_amazon_cloudfront.sh
