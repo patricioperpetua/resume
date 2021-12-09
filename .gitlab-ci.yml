@@ -76,9 +76,7 @@ dropbox:
 
 amazon_s3:
   stage: deploy
-  image: 
-    name: amazon/aws-cli:latest #If this value is change, please update the Readme file.
-    entrypoint: ["/bin/bash"]
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest #If this value is change, please update the Readme file.
   variables:
     AWS_DEFAULT_REGION: eu-west-3 # The region of S3 bucket
     AWS_ACCESS_KEY_ID: ${AMAZON_S3_RESUME_WR_ACCESS_KEY_ID}
