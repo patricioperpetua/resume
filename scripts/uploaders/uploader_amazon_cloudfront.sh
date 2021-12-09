@@ -18,7 +18,7 @@ __base="$(basename "${__file}" .sh)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
 # Setting global variables.
-source scripts/config.sh
+source "${__root}/config.sh"
 
 function invalite_cloudfront_cache {
 	DISTRIBUTION_ID="${1}"

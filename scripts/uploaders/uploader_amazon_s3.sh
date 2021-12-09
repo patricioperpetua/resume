@@ -18,7 +18,7 @@ __base="$(basename "${__file}" .sh)"
 __root="$(cd "$(dirname "${__dir}")" && pwd)"
 
 # Setting global variables.
-source scripts/config.sh
+source "${__root}/config.sh"
 
 function publish_to_aws {
 	BUCKET_ADDRESS="s3://${1}/${AMAZON_S3_FOLDER}/${VERSION}"
