@@ -4,10 +4,22 @@
   },
   "work": [
     {
+      "company": "Littlepay (Australia)",
+      "position": "Full-Stack Engineer (React - Java)",
+      "website": "https://www.littlepay.com",
+      "startDate": "2021-10",
+      "endDate": "2021-12",
+      "summary": "I was part of the Traveller experience / Checkout team with other 6 collegues. We maintained and developed several backend micro services written in Java Springboot and 3 public SDK's (React Javascript, iOS Swift, Android Kotlin). These services were integrating with different payment systems such as Visa, Mastercard, Elavon, Cybersource and Cardinal.",
+      "highlights": [
+        "Java, Springboot, Javascript, React, AWS, AWS SQS, AWS RDS, AWS DynamoDB, AWS ECS, Jira, Buildkite"
+      ]
+    },
+    {
       "company": "RPS Group (Australia)",
-      "position": "Full-Stack Developer (React - .Net)",
+      "position": "Full-Stack Engineer (React - .Net)",
       "website": "https://www.rpsgroup.com.au",
       "startDate": "2020-12",
+      "endDate": "2021-10",
       "summary": "Here I work with a team of 5 people to develop a project management software for some goverment agencies. Development of web applications using React Typescript, C# .Net and SQL Server. Typical tasks are: discuss new features with SMEs and then develop frontend, backend, and database scripts.",
       "highlights": [
         ".Net, .Net Core, Javascript, Typescript, React, Antd, Azure, Azure DevOps, SQL Server, Azure Blob Storage, Azure App Services, Azure Pipelines"
@@ -15,7 +27,7 @@
     },
     {
       "company": "Robert Half (Australia)",
-      "position": "Android/Full-Stack (Java/JQuery) Developer",
+      "position": "Android/Full-Stack (Java/JQuery) Engineer",
       "website": "https://www.roberthalf.com.au",
       "startDate": "2020-09",
       "endDate": "2020-10",
@@ -37,7 +49,7 @@
     },
     {
       "company": "Farmbot (Australia)",
-      "position": "Backend Developer",
+      "position": "Backend Engineer",
       "website": "https://www.farmbot.com.au",
       "startDate": "2019-12",
       "endDate": "2019-12",
@@ -59,7 +71,7 @@
     },
     {
       "company": "RavimoShark (France)",
-      "position": "Full-Stack Developer Software Architecture and Cloud Engineer",
+      "position": "Full-Stack Engineer, Software Architecture and Cloud Engineer",
       "website": "http://www.ravimoshark.com",
       "startDate": "2017-06",
       "endDate": "2019-11",
