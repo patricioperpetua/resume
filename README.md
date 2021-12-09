@@ -88,6 +88,21 @@ Follow [this steps](http://99rabbits.com/get-dropbox-access-token/) to get a dro
 Follow [this guide](https://support.infinitewp.com/support/solutions/articles/212258-where-are-my-amazon-s3-credentials-) to create a bucket inside amazon s3 and create a user with read and write access. Then save the **Access key ID and Secret access key** as
  following: **AMAZON_S3_RESUME_WR_ACCESS_KEY_ID** and **AMAZON_S3_RESUME_WR_SECRET_ACCESS_KEY**.
 
+If you want to use the same docker image to make the deployment locally, you can execute the following:
+```bash
+#To deploy as non-master branch
+alias aws_docker='docker run --rm -ti -v ~/.aws:/root/.aws -v $(pwd):/aws -e CURRENT_BRANCH='develop' registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest'
+
+#To deploy as master branch
+alias aws_docker='docker run --rm -ti -v ~/.aws:/root/.aws -v $(pwd):/aws -e CURRENT_BRANCH='master' registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest'
+```
+
+And then you can execute:
+```bash
+aws_docker ./scripts/uploaders/uploader_amazon_s3.sh
+aws_docker ./scripts/uploaders/uploader_amazon_cloudfront.sh
+```
+
 ### LOCATIONS OF FILES
 
 * **MASTER BRANCH:** under path /latest/
