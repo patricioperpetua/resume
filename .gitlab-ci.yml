@@ -81,6 +81,7 @@ amazon_s3:
     AWS_DEFAULT_REGION: eu-west-3 # The region of S3 bucket
     AWS_ACCESS_KEY_ID: ${AMAZON_S3_RESUME_WR_ACCESS_KEY_ID}
     AWS_SECRET_ACCESS_KEY: ${AMAZON_S3_RESUME_WR_SECRET_ACCESS_KEY}
+  before_script: []
   script:
     - ./scripts/uploaders/uploader_amazon_s3.sh
     - ./scripts/uploaders/uploader_amazon_cloudfront.sh
