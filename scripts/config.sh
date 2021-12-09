@@ -27,7 +27,6 @@ fi
 echo "Current branch: ${CURRENT_BRANCH}"
 if [ "${CURRENT_BRANCH}" == "master" ]; then
 	echo "Uploading latest content."
-    VERSION="latest"
 else
     echo "Building for a branch content."
     VERSION="${CURRENT_BRANCH}"

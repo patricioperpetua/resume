@@ -26,7 +26,7 @@ function publish_to_aws {
 	aws s3 cp --acl public-read "${CV_FOLDER_PATH}" "${BUCKET_ADDRESS}" --recursive
 
 	if [ "${CURRENT_BRANCH}" == "master" ]; then
-		aws s3 cp --acl public-read "${CV_FOLDER_PATH}" "s3://${1}/${AMAZON_S3_FOLDER}/latest" --recursive
+		aws s3 cp --acl public-read "${CV_FOLDER_NAME}/latest" "s3://${1}/${AMAZON_S3_FOLDER}/latest" --recursive
 	fi
 }
 
