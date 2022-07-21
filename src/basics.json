@@ -8,8 +8,8 @@
     "phone": "+61480190003",
     "website": "https://patricioperpetua.com.au",
     "location": {
-      "address": "Southbank",
-      "postalCode": "3006",
+      "address": "",
+      "postalCode": "3004",
       "city": "Melbourne",
       "countryCode": "Australia (AU)",
       "region": "Victoria"
@@ -19,6 +19,16 @@
         "network": "LinkedIn",
         "username": "Patricio Perpetua",
         "url": "https://linkedin.com/in/patricio-perpetua"
+      },
+      {
+        "network": "Gitlab",
+        "username": "patoperpetua",
+        "url": "https://gitlab.com/patoperpetua"
+      },
+      {
+        "network": "Github",
+        "username": "patoperpetua",
+        "url": "https://github.com/patoperpetua"
       },
       {
         "network": "Gitlab",
@@ -68,20 +78,21 @@
       "keywords": [
         "HTML, CCS, JS (5)",
         "Angular (4)",
-        "React (1)",
+        "React (2)",
         "JQuery (4)",
         "AntDesign (1)",
-        "Bootstrap (4)"
+        "Bootstrap (4)",
+        "NextJS (1)"
       ]
     },
     {
       "name": "Programming Languages (years)",
       "level": "",
       "keywords": [
-        "C# (1)",
-        "Java (7)",
+        "C# (3)",
+        "Java (8)",
         "Java Android (5)",
-        "JavaScript, Typescript (4)"
+        "JavaScript, Typescript (5)"
       ]
     },
     {
@@ -117,8 +128,8 @@
       "name": "Javascript/Typescript (years)",
       "level": "",
       "keywords":[
-        "NodeJS (4)",
-        "NestJS (2)"
+        "NodeJS (5)",
+        "NestJS (3)"
       ]
     },
     {
@@ -149,7 +160,24 @@
         "Gitlab CI/CD (4)",
         "Docker (4)",
         "Jenkins (1)",
-        "Azure Pipelines (1)"
+        "Azure Pipelines (1)",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "name": "CMS (years)",
+      "level": "",
+      "keywords":[
+        "Sitecore (1)",
+        "Wordpress (1)"
+      ]
+    },
+    {
+      "name": "Platforms (years)",
+      "level": "",
+      "keywords":[
+        "Salesforce (1)",
+        "Boomi (1)"
       ]
     }
   ],

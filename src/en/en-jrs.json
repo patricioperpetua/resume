@@ -4,6 +4,16 @@
   },
   "work": [
     {
+      "company": "IE Media (LEXUS) (Australia)",
+      "position": "Mid Software Engineer (React - C# .NET - Sitecore)",
+      "website": "https://www.ie.com.au",
+      "startDate": "2022-01",
+      "summary": "I'm a full-stack developer in the Lexus Mainsite Team where we develop and maintain websites, spa apps, android apps and iOS apps. My day to day activities involves working on the different projecs doing a little bit of everything: PR reviews, frontend, backend, devops, design review, estimation, and so on. ",
+      "highlights": [
+        "React, C#, .NET, Sitecore, Xamarin, Android, iOS, SPA, Azure, Azure DevOps, Azure Pipelines, JIRA"
+      ]
+    },
+    {
       "company": "Littlepay (Australia)",
       "position": "Full-Stack Engineer (React - Java)",
       "website": "https://www.littlepay.com",
