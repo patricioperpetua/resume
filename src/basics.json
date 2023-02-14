@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "Patricio PERPETUA",
-    "label": "Computer Engineer",
+    "name": "Patricio (Pat) PERPETUA",
+    "label": "Software Engineer",
     "image": "profile.jpg",
     "picture": "profile.jpg",
     "email": "patoperpetua@singletonsd.com.au",
@@ -55,7 +55,7 @@
     {
       "institution": "Ensimag Grenoble INP, France",
       "area": "Software Engineer",
-      "studyType": "College (One year Exchange)",
+      "studyType": "College (Exchange year - ERASMUS)",
       "startDate": "2017-01-01",
       "endDate": "2017-12-01",
       "gpa": "13.7/20",

@@ -19,7 +19,7 @@
       "website": "https://www.littlepay.com",
       "startDate": "2021-10",
       "endDate": "2021-12",
-      "summary": "I was part of the Traveller experience / Checkout team with other 6 collegues. We maintained and developed several backend micro services written in Java Springboot and 3 public SDK's (React Javascript, iOS Swift, Android Kotlin). These services were integrating with different payment systems such as Visa, Mastercard, Elavon, Cybersource and Cardinal.",
+      "summary": "I was part of the Traveler experience / Checkout team with other 6 colleges. We maintained and developed several backend micro services written in Java Springboot and 3 public SDK's (React Javascript, iOS Swift, Android Kotlin). These services were integrating with different payment systems such as Visa, Mastercard, Elavon, Cybersource and Cardinal.",
       "highlights": [
         "Java, Springboot, Javascript, React, AWS, AWS SQS, AWS RDS, AWS DynamoDB, AWS ECS, Jira, Buildkite"
       ]
