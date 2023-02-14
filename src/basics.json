@@ -76,72 +76,72 @@
       "name": "Web (years)",
       "level": "",
       "keywords": [
-        "HTML, CCS, JS (5)",
-        "Angular (4)",
-        "React (2)",
-        "JQuery (4)",
-        "AntDesign (1)",
-        "Bootstrap (4)",
-        "NextJS (1)"
+        "HTML, CCS, JS (+5 years)",
+        "Angular (+3 years)",
+        "React (+5 years)",
+        "JQuery (+3 years)",
+        "Bootstrap (+3 years)",
+        "NextJS (2 years)",
+        "NestJS (3 years)"
       ]
     },
     {
       "name": "Programming Languages (years)",
       "level": "",
       "keywords": [
-        "C# (3)",
-        "Java (8)",
-        "Java Android (5)",
-        "JavaScript, Typescript (5)"
+        "C# (+3 years)",
+        "Java (+5 years)",
+        "Java Android (+5 years)",
+        "JavaScript, Typescript (+5 years)"
       ]
     },
     {
       "name": "Cloud (years)",
       "level": "",
       "keywords":[
-        "AWS (Lambda, S3, Route 53, CDN, EC2) (2)",
-        "Azure (Blob, App Serv, A Directory, Insights, SQL) (4)",
-        "Azure DevOps (1)"
+        "AWS (Lambda, S3, Route 53, CDN, EC2) (2 years)",
+        "Azure (Blob, App Serv, A Directory, Insights, SQL) (+3 years)",
+        "Azure DevOps (2 years)"
       ]
     },
     {
       "name": "Scripting (years)",
       "level": "",
       "keywords": [
-        "Bash (3)",
-        "Powershell (1)",
-        "Kotlin",
-        "Python"
+        "Bash (+5 years)",
+        "Powershell (2)",
+        "Kotlin (1 year)",
+        "Python (1 year)"
       ]
     },
     {
       "name": "Database Engines (years)",
       "level": "",
       "keywords": [
-        "SQLite (7)",
-        "SQL Server, Azure DB (4)",
-        "MySQL (4)",
-        "MongoDB (1)"
+        "SQLite (+5 years)",
+        "SQL Server, Azure DB (+5 years)",
+        "MySQL (+5 years)",
+        "MongoDB (1 year)"
       ]
     },
     {
       "name": "Javascript/Typescript (years)",
       "level": "",
       "keywords":[
-        "NodeJS (5)",
-        "NestJS (3)"
+        "NodeJS (+5 year)",
+        "NestJS (3 years)"
       ]
     },
     {
       "name": "Java (years)",
       "level": "",
       "keywords":[
-        "Maven (6)",
-        "Jasper Reports (5)",
-        "Liquibase (5)",
-        "Hibernate, JPA (6)",
-        "Spring, Spring Boot (4)",
-        "JSP (2)"
+        "Maven (+5 years)",
+        "Jasper Reports (+5 years)",
+        "Liquibase (+5 years)",
+        "Hibernate, JPA (+5 years)",
+        "Spring, Spring Boot (+5 years)",
+        "JSP (2 years)"
       ]
     },
     {
@@ -157,18 +157,18 @@
       "name": "CI/CD Tools (years)",
       "level": "",
       "keywords":[
-        "Gitlab CI/CD (4)",
-        "Docker (4)",
-        "Jenkins (1)",
-        "Azure Pipelines (1)",
-        "Azure DevOps"
+        "Gitlab CI/CD (+5 years)",
+        "Docker (+5 years)",
+        "Jenkins (1 year)",
+        "Azure Pipelines (2 years)",
+        "Azure DevOps (2 years)"
       ]
     },
     {
       "name": "CMS (years)",
       "level": "",
       "keywords":[
-        "Sitecore (1)",
+        "Sitecore (2 years)",
         "Wordpress (1)"
       ]
     },
@@ -176,8 +176,8 @@
       "name": "Platforms (years)",
       "level": "",
       "keywords":[
-        "Salesforce (1)",
-        "Boomi (1)"
+        "Salesforce (2 years)",
+        "Boomi (1 year)"
       ]
     }
   ],
